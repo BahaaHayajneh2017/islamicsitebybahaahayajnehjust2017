@@ -1,0 +1,2530 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'CoconNextArabic';
+    src: url('fonts/CoconNextArabic-Light.woff2') format('woff2'),
+        url('fonts/CoconNextArabic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Janna LT';
+    src: url('fonts/JannaLT-Bold.woff2') format('woff2'),
+        url('fonts/JannaLT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Janna LT Regular';
+    src: url('fonts/JannaLT-Bold.woff2') format('woff2'),
+        url('fonts/JannaLT-Bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('fonts/DINNextLTArabic-Bold.woff2') format('woff2'),
+        url('fonts/DINNextLTArabic-Bold.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.hide {
+   opacity: 0;
+   visibility: hidden;
+    padding: 21px;
+    position: absolute;
+    width: 600px;
+    font-family: 'DIN Next LT Arabic';
+    background-color: #fbfbfb;
+    margin-top: 0px;
+    line-height: 1.744;
+    z-index: 99;
+    transition: 0.3s;
+}
+
+.myDIV {
+    position: relative;
+    
+}
+
+.myDIV:hover>.hide {
+   opacity: 1;
+
+   transition: 2s;
+   visibility: visible;
+
+}
+h1.abouthide {
+    margin: 0;
+    font-size: 22.5px;
+    font-family: 'CoconNextArabic';
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.aboutdeschide {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'CoconNextArabic';
+}
+
+
+
+.hide ul li a
+{
+    text-decoration: none;
+    color: #2c333a;
+    font-size: 14px;
+    font-weight: bold;
+  
+}
+
+
+.hide ul li a:hover
+{
+    color:#80ad2d ;
+}
+
+.hide ul li
+{   
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+
+
+button.imgprev.slick-arrow {
+    display: contents;
+}
+
+button.imgnext.slick-arrow {
+    display: contents;
+}
+
+
+
+.aboutcompanyhide {
+color: #2c333a;
+font-size: 25.54px;
+margin-bottom: 15px;
+}
+
+.desccompanyhide {
+    color: #5f787f;
+    font-size: 10.05px;
+    padding: 10px;
+    line-height: 25px;
+}
+.navhide ul li
+{   display: block;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.navhide ul li a
+{
+    text-decoration: none;
+    color: #2c333a;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+
+.navhide ul li a:hover
+{
+    color:#80ad2d ;
+}
+
+
+
+.navhide ul
+{
+    padding: 0px;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem !important;
+    font-size: 2.25rem !important;
+    color: gray !important;
+    line-height: 1 !important;
+
+    background-color: #eeeeee  !important;
+    border: 1px solid #dddddd !important;
+    border-radius: 0.25rem !important;
+    transition: box-shadow .15s ease-in-out !important;
+}
+
+
+.navbar-toggler:focus{
+    border: 1px solid #dddddd;
+    outline: none;
+}
+
+.slick-list.draggable {
+    direction: ltr;
+}
+
+
+
+
+.divtext {
+    position: absolute;
+    top: 61%;
+    color: white;
+    right: 105px;
+}
+
+
+
+.nav-item .nav-link {
+    color: #333333;
+    font-family: 'Janna LT';
+    font-size: 14.93px;
+    height: 108px;
+    padding: 30px;
+    margin-right: 22px;
+}
+.nav-item .nav-link:hover
+{
+color: #80ad2d;
+}
+
+
+
+span.p2 {
+    color: #7ba134;
+    font-size: 20.30px;
+    font-family: 'CoconNextArabic';
+}
+p.p1 {
+    font-size: 27.64px;
+    font-family: 'CoconNextArabic';
+}
+
+
+
+
+
+span.messegekeyword::after {
+    position: absolute;
+    content: '';
+    top: 38px;
+    left: -3px;
+    /* height: 10px; */
+    width: 51px;
+    background-color: #97c83b;
+    height: 3px;
+    bottom: 0;
+    /* border-bottom: 1px solid green; */
+}
+
+
+span.messegekeyword {
+ 
+    font-size: 22.74px;
+    position: relative;
+    font-family: 'CoconNextArabic';
+
+}
+
+
+
+
+
+
+span.visionkeyword::after {
+    position: absolute;
+    content: '';
+    top: 38px;
+    left: -3px;
+    /* height: 10px; */
+    width: 51px;
+    background-color: #97c83b;
+    height: 3px;
+    bottom: 0;
+    /* border-bottom: 1px solid green; */
+}
+
+
+span.visionkeyword {
+  
+    font-size: 22.74px;
+    position: relative;
+    font-family: 'CoconNextArabic';
+
+
+}
+
+.container-fluid.visionpage {
+    width: 91%;
+    background-color: rgb(235, 249, 208);
+    border-radius: 140px;
+    padding: 30px;
+    margin-bottom: 103px;
+}
+.container-fluid.visionpage.container.row .col-sm-6{
+    margin-top: 40px !important;
+}
+
+.visionimage
+{
+    margin-top: 30px;
+}
+
+.visiondescription {
+    font-family: 'CoconNextArabic';
+
+    font-size: 16.45px;
+    color: #535353;
+}
+
+
+.we
+{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+.backimage
+{
+    position: relative;
+    margin-bottom: 64px;
+}
+.shadowimage {
+    position: absolute;
+    background-color: rgb(43, 43, 43);
+    opacity: 0.89;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+
+
+
+.imgbranch img {
+    width: 100%;
+}
+
+.branchname {
+    background-color: #78b20a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.branchinfo {
+    position: absolute;
+    padding: 25px;
+    bottom: -53px;
+    color: black;
+    width: 85%;
+    background-color: white;
+    margin-right: 14px;
+    border-radius: 5px;
+    /* height: 85px; */
+    box-shadow: 0px 0px 20px 0px #dddddd;
+}
+
+
+.golocation a {
+    text-decoration: none;
+    font-size: 15.03px;
+    margin-right: 10px;
+    color: #496e03;
+    font-family: 'Fira Sans';
+}
+.golocation a:hover {
+    
+    color: #498e08;
+
+}
+
+
+a.navbar-brand img {
+    margin-bottom: 24px;
+}
+
+.cards.row .col-sm-3 {
+    position: relative;
+}
+.cards.row {
+    margin-bottom: 116px;
+}
+
+
+
+.imginfosec img:hover {
+    transition: 1s;
+    transform: scale(0.9);
+}
+
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h11
+{
+    color: red;
+}
+
+
+.mainmenu
+{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+
+
+.mainmenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 48px;
+    font-family: "Janna LT";
+    color: #000000;
+    cursor: pointer;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  .tamweelpic .container .row .col-sm-4 .card:hover .overlay {
+    opacity: 1;
+  }
+  .texthello {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.calcelect
+{
+  
+        border-radius: 6px;
+        background-color: rgb(129, 172, 51);
+ border: 1px solid rgb(129, 172, 51);
+        width: 339px;
+        height: 65px;
+        font-family: "Janna LT";
+        font-size: 17.36px;
+        color: white;
+        margin-right: 458px;
+      margin-bottom: 56px;
+}
+
+
+
+.calcelect:hover
+{
+    color: #fffdff;
+    transition: 1.3s;
+    background-color: rgb(129, 190, 89);;
+}
+
+
+
+input[type=range] {
+    -webkit-appearance: none;
+    
+    width: 874px;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 1px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: #dddddd;
+    border-radius: 25px;
+    border: 0px solid #000101;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 24px;
+    width: 24px;
+   
+    background: #8cba2e;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -10px;
+  }
+  .inputrange label 
+  {  font-family: "Janna LT";
+font-size: 14.14px;
+  }
+  .inputrange1 label 
+  {  font-family: "Janna LT";
+font-size: 14.14px;
+  }
+  .inputrange .inforange
+  {font-family: "Janna LT";
+    font-size: 22.29px;
+  }
+  .container.rangesec {
+    margin-right: 102px;
+}
+  .inputrange 
+  {
+    margin-bottom: 40px;
+  }
+    .inputrange1 .inforange
+    {
+        font-family: "Janna LT";
+    font-size: 22.29px;
+    }
+  .inputrange1
+  {
+    margin-bottom: 60px;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #ac51b5;
+  }
+  
+
+
+  .monthpay:focus {
+  
+    outline: none;
+    }
+  
+
+
+.inputinfo
+{
+    margin-right: 343px;
+    margin-bottom: 50px;
+}
+.monthpay {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 279px;
+    text-align: center;
+    height: 95px;
+    font-family: "Janna LT";
+    font-size: 22.29px;
+}
+.mainmenu a:hover {
+    color: #80ad2d;
+}
+
+ .navs ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.m1 {
+    width: 65%;
+}
+.imgcard
+{
+    width: 100%;
+}
+.imgcard:hover {
+    transform: scale(0.9);
+    transition: 4.2s;
+}
+.m2 {
+    width: 20%;
+}
+
+.imgback {
+    width: 100%;
+}
+
+
+
+.Rectangle_1_copy_15 {
+    background-color: rgb(35, 31, 32);
+    opacity: 0.871;
+    position: absolute;
+    left: 558px;
+    top: 315px;
+    width: 716px;
+    height: 225px;
+    z-index: 49;
+  }
+  
+
+  .slick-next 
+  {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 61% !important;
+    display: block;
+    width: 100px !important;
+    height: 100px !important;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    background-image: url('img3/layer_40_copy_2.png') !important;
+    background-repeat: no-repeat !important;
+    outline: none;
+    background: transparent;
+}
+
+  .slick-prev{
+
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 61% !important;
+    display: block;
+    width: 100px !important;
+    height: 100px !important;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    background-image: url('img3/layer_40_copy.png') !important;
+    background-repeat: no-repeat !important;
+  
+}
+
+
+
+[dir='rtl'] .slick-next {
+    right: 0 !important;
+    left: 0 !important;
+}
+
+[dir='rtl'] .slick-prev {
+    right: 0 !important;
+    left: 0 !important;
+}
+
+[dir='rtl'] .slick-prev:before {
+    content: '' !important;
+}
+
+[dir='rtl'] .slick-next:before {
+    content: '' !important;
+}
+
+
+
+
+
+  .textcont {
+
+    position: absolute;
+    top: 245px;
+    bottom: -98px;
+    right: 133px;
+    direction: rtl;
+    background-color: rgb(35, 31, 32);
+    opacity: 0.871;
+    width: 716px;
+    height: 233px;
+    padding: 25px;
+    color: white;
+    bottom: 0px;
+  
+}
+.backabsolute {
+    position: relative;
+}
+
+.next img {
+    position: absolute;
+    top: 58px;
+    left: 25px;
+}
+
+
+.text {
+    color: #ffff;
+    margin-bottom: 20px;
+    font-size: 20.36px;
+    width: 84%;
+    font-family: 'CoconNextArabic';
+}
+
+.news {
+    color: #94c736;
+}
+
+.texthead {
+    color: #ffffff;
+    font-size: 27.37px;
+    margin-bottom: 13px;
+    font-family: 'CoconNextArabic';
+}
+
+.apply {
+    background-color: #98c93c;
+    width: 151px;
+    height: 52px;
+    color: #ffff;
+    border: 1px solid #728d3a;
+    margin-bottom: 25px;
+    font-family: 'Janna LT';
+    font-size: 15.22px;
+    ;
+}
+
+.visionsec {
+    background-color: #f7f7f7;
+    height: 359px;
+    margin-bottom: 40px;
+    padding-top: 61px;
+}
+
+.desc {
+    font-family: 'CoconNextArabic';
+    font-size: 17.57px;
+    color: #595959;
+    padding-bottom: 22px;
+ 
+}
+
+.desc1 {
+    font-family: 'CoconNextArabic';
+    font-size: 17.57px;
+    color: #595959;
+    padding-bottom: 22px;
+    width: 443px;
+    background-color: #ffffff;
+}
+.cardcontainer .cardsec{
+width: 33.3333333%;
+float: left;
+height: 503px;
+}
+
+.vis {
+    background-color: #ffffff;
+    margin-top: 21px;
+}
+
+ .head {
+    font-family: 'DIN Next LT Arabic';
+    font-size: 18.25px;
+margin-bottom: 16px;
+color: #595959;
+}
+.visdesc
+{
+    background-color: #ffffff;
+}
+
+.wesec {
+    color: #777777;
+}
+
+.visdesc {
+    color: #5c5c5c;
+    font-size: 17px;
+    width: 436px;
+    font-family: 'CoconNextArabic';
+    padding-top: 37px;
+}
+
+.readmore {
+    color: #161616;
+    font-family: 'Janna LT';
+    text-decoration: none;
+    width: 100%;
+text-align: right;
+font-size: 13.93px;
+}
+
+
+.readmore::after {
+    position: absolute;
+    top: 23px;
+    background-color: #404040;
+    content: '';
+    right: 16px;
+    width: 66px;
+    height: 1px;
+}
+
+.readsec {
+float: left;
+position: relative;
+}
+
+.tamweelkey {
+    color: #595959;
+    font-family: 'Janna LT';
+    font-size: 34.08px;
+    float: right;
+}
+
+.dir {
+    float: left;
+}
+
+.nextdir {
+    border-radius: 50%;
+    background-color: #dddd;
+
+    padding: 20px;
+}
+
+
+
+
+.tamweelsec {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 45px;
+    margin-bottom: 31px;
+}
+
+.tamdesc {
+    font-size: 26.96px;
+    font-family: 'DIN Next LT Arabic';
+    color: white;
+    margin-bottom: 23px;
+}
+
+.logocard {
+    margin-bottom: 27px;
+    margin-top: 223px;
+}
+
+.plus {
+    color: white;
+    width: 54px;
+    padding: 1px;
+    background-color: #636668;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+}
+.tamweeldir
+{
+    color:red
+}
+.tamweelpic {
+    margin-bottom: 82px;
+    display: inline-block;
+}
+
+.calc {
+    background-color: #f4f9fa;
+    margin-bottom: 37px;
+}
+
+.calcmonth {
+    font-size: 34px;
+    font-family: 'Janna LT';
+    color: #676868;
+    text-align: center;
+    margin-bottom: 45px;
+padding-top: 48px;
+}
+
+.env {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.proj {
+    font-family: 'Janna LT';
+    color: #d0d2d3;
+    font-size: 15.86px;
+
+    border-bottom: 1px solid #b6b6b6;
+
+}
+
+.envcal {
+    border-bottom: 1px solid #80ac31;
+    font-family: 'Janna LT';
+font-size: 15.86px;
+    color: #80ac31;
+}
+.inputinfo ::placeholder {
+ top: 50%;
+
+     text-align: center; 
+    position: absolute;
+    transform: translateY(-50%);
+    right: 35%;
+}
+
+.selsty {
+    margin-right: 190px;
+    display: block; 
+    margin-bottom: 52px;
+     font-family: 'Janna LT';
+    width: 800px;
+    padding: 8px;
+    font-size: 13.5;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8f8f8f;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.jobscard .col-sm-4:hover {
+    box-shadow: 0px 4px 6px 2px rgb(0 0 0 / 19%);
+}
+.infosec {
+    background-color: #f8f6f6;
+ 
+    margin-bottom: 30px;
+padding: 64px 45px;;
+}
+.infosec .col-sm-4
+{
+    padding-right: 114px;
+}
+.tamweeldesc
+{
+    background-color: black;
+}
+
+.infohead {
+    font-family: 'Janna LT';
+    position: relative;
+    padding-bottom: 30px;
+color: #545454;
+font-size: 25.29px;
+
+}
+
+.infohead::after {
+    content: '';
+    width: 96px;
+    height: 6px;
+    background: #81ac33;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+button.slide-arrow.next-arrow.slick-arrow {
+
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    right: 10px;
+font-size: 35.15px;
+
+
+}
+
+button.slide-arrow.prev-arrow.slick-arrow
+{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    left: 10px;
+    font-size: 35.15px;
+}
+
+
+
+.num {
+    font-family: 'Janna LT';
+    font-size: 45px;
+    color: #81ac33;
+
+
+}
+
+.ifcon {
+
+    margin-left: 37px;
+
+}
+
+.dev {
+    color: #ffffff;
+}
+
+.develop {
+    color: #80ad2d;
+}
+
+.newskey {
+    text-align: center;
+    color: #515151;
+    font-size: 35px;
+    font-family: 'Janna LT';
+    margin-bottom: 41px;
+    padding-top: 51px;
+}
+.cardnews
+{
+    width: 33.33%;
+    height: 500px;
+}
+.newsec {
+ 
+    margin-bottom: 67px;
+}
+.responsibilitysection
+{
+    margin-bottom: 67px;
+}
+.more  a{
+    float: left;
+    color: #074993;
+    text-decoration: none;
+    border-bottom: 1px solid #074993;
+}
+
+
+
+.cardfo {
+    background-color: white;
+    padding: 35px;
+    
+}
+
+.supkey {
+    text-align: center;
+    color: #1c1c1c;
+    font-size: 31px;
+    font-family: 'Janna LT';
+    margin-bottom: 98px;
+    padding-top: 57px;
+}
+
+.suppliersec {
+    background-color: #fcfcfc;
+    margin-bottom: 45px;
+    padding-bottom: 56px;
+}
+
+.company {
+    color: white;
+}
+.partnersec
+{
+    margin-bottom:85px ;
+}
+
+.com {
+    margin-bottom: 23px;
+}
+
+.contactsec
+{
+    padding: 52px;
+    background-color: #f8f8f8;
+}
+.location
+{
+    color: #393939;
+    font-family: 'Janna LT';
+    font-size: 20.79px;
+    margin-bottom: 37px;
+}
+.nameinput i {
+    position: absolute;
+    right: 126px;
+    padding: 19px;
+    color: #6b9a12;
+    /* bottom: 165px; */
+    /* top: 3px; */
+}
+.imgicons
+{
+    position: relative;
+}
+.imgicons img {
+    position: absolute;
+    width: 359px;
+    height: 124px;
+    top: 80px;
+   
+}
+.contactform input
+{ 
+
+width: 241px;
+height: 55px;
+margin-left: 20px;
+}
+.emailinput {
+    margin-bottom: 35px;
+}
+.btncontact
+{
+    background-color: #94c33c;
+    color: white;
+    font-family: 'Janna LT';
+    font-size: 13.07px;
+    width: 144px;
+    height: 45px;
+border: 1px solid #94c33c;
+}
+
+.btncontact:hover
+{
+    background-color: #99f61c;
+    color: white;
+    transition: 1.43s;
+}
+
+.locationframe iframe {
+    height: 344px;
+}
+
+
+
+
+
+
+.contactform textarea
+{
+    border: 1px solid #ebebeb;
+    width: 553px;
+    height: 160px;
+    margin-bottom: 19px;
+
+}
+::placeholder
+{
+    padding: 22px;
+    color: #bbbbbb;
+    font-size: 11.56px;
+    font-family: 'Janna LT';
+}
+.nameinput
+{ 
+    margin-bottom: 35px;
+}
+.contactform input{
+    border: 1px solid #ebebeb;
+}
+.social i {
+
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 7px;
+
+}
+.suggestkey
+{    margin-bottom: 37px;
+
+    color: #393939;
+    font-family: 'Janna LT';
+    font-size: 20.79px;
+}
+.social i:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.3);
+    transition: 1.5s;
+
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 7px;
+}
+
+.social {
+
+    direction: ltr;
+    padding-left: 142px;
+}
+
+
+.footer .col-sm-3 a {
+    text-decoration: none;
+    display: block;
+    color: #ffff;
+    font-size: 16px;
+    margin-bottom: 18px;
+    margin-bottom: 23px;
+}
+
+.footer .col-sm-3 a:hover {
+    color: #80ad2d;
+}
+
+.dev {
+    color: #ffffff;
+}
+
+.develop {
+    color: #80ad2d;
+}
+
+.footer .col-sm-3 {
+    width: 20%;
+}
+
+.footercopy .sec {
+    font-family: 'Janna LT';
+    font-size: 14.79px;
+    padding-bottom: 18px;
+    color: white;
+}
+
+.footercopy {
+    background-color: #373737;
+    direction: rtl;
+    padding-top: 28px;
+    border: none;
+
+}
+
+.footer {
+    background-color: #404040;
+
+    padding-top: 74px;
+    height: 332px;
+    padding-right: 100px;
+
+}
+
+
+
+.footerdis {
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 24px;
+}
+.sup1{
+    color: #000000;
+}
+.company {
+    color: white;
+}
+
+.footercopy {
+    background-color: #373737;
+    direction: rtl;
+    padding-top: 28px;
+    border: none;
+
+}
+.shownews
+{
+    text-align: center;color: #515151;
+    font-family: 'Janna LT';
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.margnews
+{
+    margin-bottom: 96px;
+}
+.margsup
+{
+    margin-bottom: 69px;
+}
+.showsup
+{
+    color: #3f3e3e;
+    font-family: 'Janna LT';
+    text-align: center;
+   position: relative;
+  
+
+}
+.showsup::after {
+    background-color: #3f3e3e;
+    width: 84px;
+    height: 1px;
+    content: '';
+    position: absolute;
+    right: 47%;
+    top: 80%;
+}
+.showsup a 
+{color: #3f3e3e;
+text-decoration: none;
+}
+
+
+/*Complaints Page*/
+
+
+.lab label {
+    margin-bottom: 12px;
+    font-family: 'Janna LT';
+    font-size: 13.68px;
+}
+.compaintsform {
+    margin-bottom: 112px;
+    width: 90%;
+    border: 1px solid #dddd;
+    padding: 50px;
+    /* padding-right: 49px; */
+    position: relative;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 22.54px 0.46px rgba(48, 48, 48, 0.38);
+
+}
+.compaintsform input[type="text"], .compaintsform input[type="email"]  {
+    /* width: 30px; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    /* position: absolute; */
+    /* left: 715px; */
+    /* top: 1879px; */
+    width: 501px;
+    height: 51px;
+}
+
+
+.compaintsform input[type="text"]:focus, .compaintsform input[type="email"]:focus,textarea:focus  {
+outline-color: #6b9a12;
+box-shadow: 4px 0 5px rgb(120, 178, 10);
+color: #252525;
+}
+
+
+
+
+
+.btnapplycomp
+{  border-style: solid;
+    border-width: 2px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    background-color: rgb(120, 178, 10);
+  color: white;
+    left: 1037px;
+    top: 2261px;
+    width: 173px;
+    height: 52px;
+ 
+
+}
+
+.btnapplycomp:hover
+{
+    animation: hoverbtnapplycomp 5s infinite;
+}
+
+
+@keyframes hoverbtnapplycomp {
+    50% {
+        
+        border: 2px solid #dddddd;
+        background-color: #9a9a9a;
+  color: black;
+    
+    }
+  }
+
+
+
+
+
+  .formcompaints {
+    position: relative;
+    /* padding: 130px; */
+    padding: 36px;
+    margin-right: 37px;
+}
+.formcompaints textarea {
+    width: 93%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid #dddd; */
+    height: 128px;
+    margin-bottom: 33px;
+}
+.formcompaints .form-group.row {
+    margin-bottom: 32px;
+}
+.complaintskey {
+    border-width: 0.7px;
+    border-color: #9a9a9a;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: -26px;
+    right: 95px;
+    font-size: 21.70px;
+    padding: 18px;
+    text-align: center;
+    top: 1;
+    width: 270px;
+    height: 72px;
+}
+
+.formcompaints ::placeholder
+{
+    color: red;
+    font-family: 'Janna LT';
+    font-size: 9.95px;
+    color: #878787;
+    padding: 10px;
+}
+
+
+
+
+.complaintsSection {
+  
+    line-height: 25px;
+    border-radius: 32px;
+    border: 1px solid #dddd;
+    width: 89% !important;
+    
+    /* padding: 73px 30px; */
+    /* margin-right: 10px; */
+    margin-bottom: 126px;
+    box-shadow: 1px 2px 3px #dddd;
+}
+.container-fluid.complaintsSection .container {
+    padding: 60px 63px;
+    font-size: 14.35px;
+    color: #525252;
+    font-family: 'DIN Next LT Arabic';
+}
+
+
+.container-fluid {
+    width: 100%;
+     padding-right: 0px !important; 
+    padding-left: 0px !important; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.no-padding
+
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.no-margin
+{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+/*Contact Us Page*/
+.contactword {
+    background-color: rgb(233, 242, 217);
+border-right: 5px solid #80ad2d;
+    width: 190px;
+padding: 3px;
+color: #80ad2d;
+font-family: 'Janna LT Regular';
+border-radius: 3px;
+font-size: 18.55px;
+text-align: center;
+margin-bottom: 46px;
+
+}
+.helpword
+{
+    font-family: 'Janna LT'; 
+    font-size: 25.55px;
+    color: #3f3f3f;
+}
+.goal 
+{ font-family: 'Janna LT';
+    font-size: 25.55px;
+    color: #80ad2d;
+    margin-bottom: 55px;
+}
+.infocontact1 {
+    font-family: 'Janna LT';
+    font-size: 17.60px;
+    color: #333333;
+    margin-bottom: 42px;
+    margin-top: 55px;
+}
+.infocontact {
+    font-family: 'Janna LT';
+    font-size: 17.60px;
+    color: #333333;
+    width: 69%;
+    
+    margin-bottom: 59px;
+   
+}
+.formcontacts input[type="text"] ,.formcontacts input[type="email"]
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+ margin-bottom: 12px;
+    left: 158px;
+    top: 856px;
+    width: 79%;
+    height: 42px;
+
+}
+.formcontacts input[type="text"]:focus,.contactsec input[type="text"]:focus,
+.contactsec input[type="email"]:focus,.contactsec textarea:focus
+,input[type="email"]:focus ,textarea:focus
+{
+    outline-color: #6b9a12;
+
+    box-shadow: 4px 0 5px rgb(120, 178, 10);
+    color: #252525;
+}
+    .formcontacts textarea {
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(204, 204, 204);
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        width: 79%;
+        height: 77px;
+        margin-bottom: 10px;
+    }
+
+
+.labcontact label
+{
+    font-family: 'Janna LT';
+    font-size: 13.67px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+.sendcontact
+{  font-family: 'Janna LT';
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    background-color: rgb(128, 173, 45);
+   color: white;
+    height: 42px;
+    width: 79%;
+}
+
+
+.sendcontact:hover
+{
+    animation: hoversenbtncomp 3s infinite;
+}
+
+
+@keyframes hoversenbtncomp {
+    50% {
+        
+        border: 2px solid #dddddd;
+        background-color: #9a9a9a;
+  color: black;
+    
+    }
+  }
+  .contactcall
+  {
+    margin-bottom: 104px;
+  }
+  .framelocation
+  {
+    margin-bottom: 63px;
+  }
+
+  /*Fatwa Page*/
+  .fatwasection {
+    position: relative;
+    margin-bottom: 81px;
+}
+  .fatwaback img {
+    position: absolute;
+    top: -62px;
+    left: 0;
+    z-index: -1;
+}
+.container.fatwabackground img {
+    width: 90%;
+}
+/*jobs page*/
+.jobscard .col-sm-4 {
+    /* border: 20px solid #dddd; */
+    /* background-color: red; */
+    /* padding: 158px; */
+    padding: 37px;
+    height: 234px;
+    width: 29%;
+    margin-right: 47px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.19);
+}
+.jobshead
+{
+    color: #82b81c;
+    font-size: 14.07px;
+     font-family: 'Janna LT';
+}
+.jobsdate
+{
+    font-size: 13.40px;
+    color: #484848;
+
+}
+.jobslogo
+{ font-family: 'Janna LT';
+    font-size: 13.40px;
+    color: #484848;
+}
+.jobsdesc {
+    font-family: 'Janna LT';
+    font-size: 10.97px;
+    color: #535353;
+    width: 98%;
+}
+.jobsbtn {
+    border-radius: 8px;
+    background-color: rgb(0, 114, 216);
+    width: 119px;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    font-size: 9.71px;
+}
+
+.cardcontent {
+    margin-right: 15px;
+}
+button.jobsbtn:hover {
+    background-color: #82b81b;
+}
+.jobscard
+{
+    margin-bottom: 22px;
+}
+/*Lajna Page*/
+.lajnasection
+{
+    position: relative;
+    margin-bottom: 58px;
+}
+
+.imglajnashadow img {
+    position: absolute;
+    top: 47px;
+    right: 310px;
+    z-index: -1;
+}  
+
+.lajnahead
+{
+    font-family: 'CoconNextArabic';
+    color: #252525;
+    font-size: 22.75px;
+    position: relative;
+   
+}
+.lajnahead::after {
+    position: absolute;
+    top: 46px;
+   
+    content: '';
+    right: 0px;
+    background-color: rgb(151, 200, 59);
+    
+    width: 57px;
+    height: 6px;
+  
+}
+
+.lajnadesc {
+    color: #535353;
+    font-size: 16.45px;
+    font-family: 'CoconNextArabic';
+    margin-top: 42px;
+    /* padding: 10px; */
+    width: 89%;
+    line-height: 26px;
+}
+.col-sm-7.lajnacard {
+    margin-top: 112px;
+    padding: 0;
+}
+
+
+/*Majles Page*/
+.majlesword
+{    font-family: 'CoconNextArabic';
+    font-size: 18.37px;
+    color: #252525;
+}
+.majlesname
+{ font-family: 'CoconNextArabic';
+    font-size: 20.94px;
+    color: #84c013;
+}
+.managesection
+{
+    margin-bottom: 61px;
+}
+.majlespage
+{
+    position: relative;
+    margin-bottom: 66px;
+}
+.squareimg ,.squareimg1
+{
+    position: relative;
+}
+.squareimg img {
+    position: absolute;
+    top: -10px;
+    z-index: -1;
+    right: -16px;
+}
+.managerword
+{
+    font-family: 'CoconNextArabic';
+    font-size: 32.55px;
+    color: #252525;
+    margin-bottom: 92px;
+}
+.squareimg1 img {
+    position: absolute;
+    z-index: -1;
+    top: -8px;
+    right: -17px;
+  
+}
+/*Messege Page*/
+.container-fluid.messegepage {
+    width: 91%;
+    background-color: rgb(235, 249, 208);
+    border-radius: 140px;
+    height: 317px;
+    
+    padding: 24px;
+    margin-bottom: 103px;
+}
+
+/*Needs Page */
+.needspage
+{
+    margin-bottom: 20px;
+}
+
+.needspage .col-sm-3 {
+    height: 300px;
+    width: 29%;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+.needsimg img
+{
+width: 100%;
+}
+
+
+
+
+.neddsdesc {
+    border: 1px solid #dddd;
+    padding: 25px;
+    font-family: 'Janna LT';
+}
+
+.squareneeds {
+    /* background-color: red; */
+    background-color: rgb(230, 242, 208);
+    border-radius: 4px;
+    width: 33px;
+    /* padding: 12px; */
+    height: 35px;
+    /* top: 59px; */
+    /* margin-left: 66px; */
+    margin-right: -10px;
+    margin-top: -24px;
+}
+.needsimg
+{
+position: relative;
+
+}
+
+.needsimg::before
+{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-image: url('img3/enter.png');
+opacity: 0;
+z-index:2;
+visibility: hidden;
+}
+
+
+
+.needsimg:hover:before 
+{
+opacity: 1;
+visibility: visible;
+
+}
+
+
+
+
+
+/*Mordeen Section */
+
+.mordeensection {
+    margin-bottom: 62px;
+}
+.moredhoverimg img {
+    margin-bottom: 96px;
+}
+.moredname {
+    font-family: 'Janna LT';
+    font-size: 19.48px;
+    color: #616161;
+    width: 100%;
+    text-align: center;
+}
+
+.moredhoverimg {
+    border-radius: 21px;
+    box-shadow: 0px 0px 1.7px 0.3px rgba(23, 23, 23, 0.23);
+    padding: 60px;
+    width: 274px;
+    height: 200px;
+    margin-bottom: 29px;
+}
+.moredhoverimg:hover {
+    box-shadow: 0px 0px 0.7px 1.3px #b6d380;
+}
+
+.container-fluid.paginationpage.container {
+    margin-right: 60px;
+}
+
+.page-link {
+    border-width: 0.35px;
+    border-color: rgb(151, 200, 59) !important;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgb(151, 200, 59);
+    position: relative;
+    display: block;
+    color: #afd46a  !important;
+    text-decoration: none;
+    border-radius: 50% !important;
+    margin-right: 13px;
+
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+li.page-item.next a:hover {
+    background-color: #97c83b;
+    color: white !important;
+}
+
+
+li.page-item.prev a:hover {
+    background-color: #b7b7b7;
+    color: white !important;
+}
+ul.pagination {
+    padding: 0 !important;
+}
+
+.container-fluid.paginationpage {
+    margin-bottom: 65px;
+}
+
+/*My Needs Page */
+.myneedssection
+{
+    margin-bottom: 72px;
+}
+.myneedswords {
+    font-family: 'CoconNextArabic';
+    color: #535353;
+    font-size: 16.45px;
+    border-radius: 22px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    padding: 48px 55px;
+    width: 100%;
+    height: 172px;
+    margin-bottom: 57px;
+}
+.col-2.product {
+ 
+    border-radius: 9px;
+    background-color: #a9da4e;
+    width: 17%;
+    margin-left: 10px;
+    font-family: 'CoconNextArabic';
+    color: white;
+    padding: 9px 26px;
+    font-size: 23.36px;
+ 
+    margin-bottom: 18px;
+
+}
+.col-10.needsinfo {
+    border-radius: 9px;
+    background-color: #f0f6e5;
+    width: 80%;
+    font-size: 23.36px;
+    font-family: 'CoconNextArabic';
+    padding: 9px 26px;
+    color: #7c7d7b;
+    height: 55px;
+}
+
+.col-10.needsinfoheader {
+    border-radius: 9px;
+    background-color: #97c83c;
+    width: 80%;
+    font-size: 23.36px;
+    font-family: 'CoconNextArabic';
+    padding: 9px 26px;
+    color: white;
+    height: 55px;
+}
+
+.productheader
+{
+    border-radius: 9px;
+    background-color: #97c83c;
+    width: 17%;
+    margin-left: 10px;
+    font-family: 'CoconNextArabic';
+    color: white;
+    padding: 9px 26px;
+    font-size: 23.36px;
+ 
+    margin-bottom: 18px 
+}
+.container-fluid.calculationsection {
+    background-color: #f4f9fa;
+    
+}
+.calculatekey {
+    text-align: center;
+    font-family: 'Janna LT';
+    font-size: 34.29px;
+    color: #595959;
+    margin-bottom: 35px;
+}
+.indivcal {
+    text-align: center;
+    font-size: 15.96px;
+    font-family: 'Janna LT';
+}
+.formlab label {
+    display: block;
+    font-family: 'Janna LT';
+    color: #333333;
+    font-size: 16.39px;
+    margin-bottom: 10px;
+}
+select.selecttype {
+    width: 76%;
+    font-family: 'Janna LT';
+    font-size: 13.59px;
+    height: 30px;
+    color: #878787;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    /* width: 809px; */
+    height: 56px;
+}
+.formlab {
+    margin-right: 200px;
+}
+/*Nabtha Page*/
+.nabthasection
+{
+    position: relative;
+    margin-bottom: 58px;
+}
+.nabthahead
+{
+    position: relative;
+    font-family: 'CoconNextArabic';
+    color: #252525;
+    font-size: 22.75px;
+   
+}
+.nabthahead::after {
+    position: absolute;
+    top: 45px;
+    border: 2px solid rgb(151, 200, 59);
+    content: '';
+    background-color: rgb(151 200 59);
+    right: 0;
+    width: 9%;
+    height: 6px;
+}
+
+.nabthadesc {
+    color: #535353;
+    font-size: 16.45px;
+    font-family: 'CoconNextArabic';
+    margin-top: 42px;
+    padding: 10px;
+    width: 100%;
+    line-height: 26px;
+}
+.col-6.nabthacard {
+    margin-top: 90px;
+    position: relative;
+}
+
+/*news 2 page */
+
+.newsdesc {
+    color: #6f6f6f;
+    font-family: 'Janna LT';
+    font-size: 12.60px;
+    width: 93%;
+    line-height: 23px;
+    padding: 8px;
+}
+
+
+
+.newshead {
+    font-family: 'Janna LT';
+    color: #97c83b;
+    font-size: 17.12px;
+    margin-bottom: 16px;
+}
+.newsdate {
+    color: #506470;
+    font-size: 12.99px;
+    margin-top: 68px;
+    font-family: 'Janna LT';
+    margin-bottom: 17px;
+}
+.newsdate1 {
+    color: #506470;
+    font-size: 11.37px;
+    font-family: 'Janna LT';
+}
+.descriptioncontainer {
+    position: absolute;
+    width: 88%;
+    z-index: -1;
+    top: 381px;
+    border-radius: 26px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+}
+.descriptioncontainermargin {
+    margin-right: 37px;
+    padding: 22px;
+}
+.descriptioncontainer:hover {
+    
+    background-color: rgb(248, 248, 248);
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.22);
+}
+
+
+
+button.imgprev.slick-arrow img {
+    border: none;
+    position: absolute;
+    top: 48%;
+    transform: translateY(-36%);
+    left: 40px;
+    z-index: 9999;
+}
+
+
+button.imgnext.slick-arrow img {
+    border: none;
+    position: absolute;
+    top: 50%;
+    right: 42px;
+    transform: translateY(-46%);
+
+    z-index: 9999;
+}
+
+.slidermordeen .moredimgslider img {
+    width: 40%;
+    margin: 0 auto;
+    height: auto;
+
+
+}
+.partnerimgslider img {
+    width: 40%;
+    height: auto;
+ 
+    margin: 0 auto;
+
+}
+.social {
+    position: relative;
+}
+.social .container {
+    position: absolute;
+    top: -27px;
+    right: -126px;
+}
+
+
+.newstwosection
+{
+    margin-bottom: 200px;
+}
+.col-8.newsbackdesc {
+    padding: 50px;
+    /* height: 731px; */
+}
+
+
+.col-9.descanddate {
+    color: #343434;
+
+    font-size: 11.95px;
+    font-family: 'Janna LT';
+}
+.col-3.newsconnectionlinks {
+    border-radius: 26px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+    width: 334px;
+    height: 788px;
+}
+
+.connectionheader {
+    background-color: rgb(151, 200, 59);
+    width: 100%;
+    height: 57px;
+    color: white;
+    padding: 20px;
+    border-radius: 26px 26px 0px 0px;
+}
+
+.news1.row {
+    padding: 20px;
+}
+.newsconnection {
+    position: relative;
+}
+.newsbackdesc
+{
+    position: relative;
+}
+
+/*Pics Page*/
+.picimg
+{
+    position: relative;
+}
+.picimg::before
+{
+    content: '';
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-image: url('img3/search-interface-symbol.png');
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0;
+z-index:2;
+visibility: hidden;
+}
+.picimg:hover:before 
+{
+opacity: 1;
+visibility: visible;
+
+}
+.row.picsec {
+    margin-bottom: 59px;
+}
+
+.row.picsec .col-4 {
+    margin-right: -34px;
+}
+
+.picimg img {
+    width: 100%;
+}
+
+
+
+
+/*Home Page */
+.imgshadowtamweel
+{
+    position: relative;
+}
+.tamweelhover{
+    display: none;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('img3/Rectangle 1 copy 212.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'DIN Next LT Arabic';
+    background-color: #fbfbfb;
+    margin-top: 0px;
+    line-height: 1.744;
+    z-index: 99;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.logotamshadow img
+{
+    margin-right: 49px;
+}
+
+
+
+.headertamshadow {
+    color: white;
+    font-size: 24.68px;
+    font-family: 'DIN Next LT Arabic';
+    margin-bottom: 25px;
+   
+    margin-right: 49px;
+}
+.desctamshadow {
+    font-size: 15.34px;
+    color: white;
+    font-family: 'DIN Next LT Arabic';
+    margin-bottom: 55px;
+    width: 84%;
+    margin-right: 49px;
+}
+
+.tamcardreadmore
+{
+    position: relative;
+}
+
+.tamcardreadmore a {
+    background-color: white;
+    /* width: 94px; */
+    padding: 8px 13px;
+    margin-right: 49px;
+    font-size: 16.66px;
+    color: #404040;
+    border-bottom: 1px solid black;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+
+
+
+.tamcardreadmore a::after {
+    position: absolute;
+    top: 24px;
+    background-color: #404040;
+  
+    content: '';
+    right: 58px;
+  
+    width: 81px;
+    height: 1px;
+}
+
+
+
+
+.card:hover .tamweelhover {
+    display: block;
+
+}
+
+
+
+
+/*Services Page */
+
+.imgshadowserv {
+    position: relative;
+}
+
+
+
+
+
+.imgblackshadow img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    /* z-index: 999999; */
+}
+.container-fluid.servicespage {
+    margin-bottom: 88px;
+}
+
+.cardcon {
+    position: absolute;
+    top: -48px;
+    right: 20px;
+    /* bottom: 36px; */
+}
+
+.servicespage .col-sm-4 
+{
+    position: relative;
+}
+
+.serviceshover {
+    display: none;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('img3/Rectangle 1 copy 212.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'DIN Next LT Arabic';
+    background-color: #fbfbfb;
+    margin-top: 0px;
+    line-height: 1.744;
+    z-index: 99;
+    transition: 0.3s;
+}
+
+.card:hover .serviceshover {
+    display: block;
+
+}
+
+.descsevshadow {
+    font-size: 14px;
+    color: white;
+    font-family: 'DIN Next LT Arabic';
+    margin-bottom: 55px;
+    width: 84%;
+}
+
+
+.servcardreadmore a {
+    background-color: white;
+    /* width: 94px; */
+    padding: 14px 27px;
+    font-size: 14px;
+    color: black;
+    border-bottom: 1px solid black;
+    border-radius: 7px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.servcardreadmore a::after {
+    position: absolute;
+    top: 37px;
+    background-color: #333333;
+    content: '';
+    right: 27px;
+    /* right: 771px; */
+    width: 63px;
+    height: 1px;
+}
+.servcardreadmore a:hover {
+  
+    color: #074993;
+
+}
+
+.logoshadow img {
+    margin-top: 83px;
+    margin-right: 63px;
+}
+.headersevshadow {
+    color: white;
+    font-size: 24.68px;
+    font-family: 'DIN Next LT Arabic';
+    margin-bottom: 14px;
+   
+    margin-right: 71px;
+}
+
+/*Responsibilty Page */
+.container.responsdiv {
+    font-size: 16.45px;
+    color: #535353;
+    padding: 41px;
+    border-radius: 22px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    width: 84%;
+    margin-bottom: 68px;
+    font-family: 'CoconNextArabic';
+    height: 172px;
+}
+
+.cardtest {
+    width: 33.333333%;
+    float: right;
+}
+.container-fluid.cardheader {
+    margin-bottom: 600px;
+}
+
+/*Values  Page */
+
+.valuesheader {
+    font-size: 22.75px;
+    color: #252525;
+    margin-bottom: 16px;
+    font-family: 'CoconNextArabic';
+}
+.valuesdesc {
+    font-size: 16.45px;
+    color: #535353;
+    font-family: 'CoconNextArabic';
+    width: 83%;
+    margin-bottom: 32px;
+}
+.valuescard {
+    margin-bottom: 68px;
+}
+
+.valueslogo img
+{
+    margin-bottom: 22px;
+}
+.valuescard .col-sm-3{
+    width: 33.333%;
+}
+
+/*Videos Page */
+
+
+.video1 img {
+    width: 235px;
+  
+    border-radius: 14px;
+}
+.video1 {
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <title>News Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @font-face {
+            font-family: 'Janna LT';
+            src: url('fonts/JannaLT-Bold.woff2') format('woff2'),
+                url('fonts/JannaLT-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('fonts/DINNextLTArabic-Bold.woff2') format('woff2'),
+        url('fonts/DINNextLTArabic-Bold.woff') format('woff');
+    font-weight: 200;
+    font-style: bold;
+    font-display: swap;
+}
+
+        body{
+            overflow-x: hidden;
+        }
+
+        .container-1050 {
+            max-width: 1061px;
+            position: relative;
+            width: 100%;
+            margin: 0px auto;
+            padding: 0px 0px;
+        }
+
+        .container-1200 {
+            max-width: 1200px;
+            position: relative;
+
+            margin: 0px auto;
+            padding: 0px 0px;
+        }
+
+        .headr0 a {
+            text-decoration: none;
+            font-size: 14px;
+            margin-left: 48px;
+            font-family: "Janna LT";
+           
+        }
+
+        .headr0 .logo {
+            padding-top: 11px;
+            padding-bottom: 20px;
+            margin-left: 50px;
+        }
+.com
+{
+    margin-bottom: 23px;
+}
+        .headr0 a {
+            color: #000000;
+        }
+
+        .headr0 a:hover {
+            color: #80ad2d;
+        }
+
+        .news {
+            color: #80ad2d;
+        }
+
+        .footer .col-sm-3 a {
+            text-decoration: none;
+            display: block;
+            color: #ffff;
+            font-size: 16px;
+            margin-bottom: 18px;
+            margin-bottom: 23px;
+        }
+        .dev{
+color: #ffffff;
+        }
+.develop
+{
+    color: #80ad2d;
+}
+.footercopy .sec
+{
+    font-family: 'Janna LT';
+    font-size: 14.79px;
+    padding-bottom: 18px;
+    color: white;
+}
+.footercopy{
+    background-color: #373737;
+    direction: rtl;
+    padding-top: 28px;
+    border: none;
+
+}
+        .footer {
+            background-color: #404040;
+            
+          padding-top:74px;
+            height: 332px;
+            padding-right:100px;
+          
+        }
+
+       
+
+        .footerdis {
+            color: #ffffff;
+            font-size: 24px;
+            margin-right: 24px;
+        }
+
+  
+        .company {
+            color: white;
+        }
+
+        .back {
+            background: url('img2/rectangle_1.png');
+            width: 100%;
+            height: 407px;
+            margin-bottom: 70px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .social i:hover {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 2px;
+}
+        .footer .col-sm-3 {
+            width: 20%;
+        }
+
+        .text {
+            color: #ffff;
+            margin-bottom: 20px;
+        }
+
+        .text1 {
+            color: #ffff;
+        }
+        .cardcon
+        {
+margin-left: 17px;
+        }
+.ifcon
+{
+ 
+    margin-left: 37px;
+
+}
+        .textcont {
+            padding-top: 245px;
+            padding-right: 100px;
+        }
+
+        .imgcard {
+            width: 392px;
+            height: 289px;
+            margin-bottom: 27px;
+            
+        }
+  
+        .more {
+            float: left;
+            color: #074993;
+        }
+
+        .head {
+            color: #595959;
+            font-size: 19px;
+            font-family: 'DIN Next LT Arabic';
+margin-bottom: 16px;            
+        }
+
+        .desc {
+            color: #595959;
+            font-size: 17px;
+           
+            
+        }
+
+        .cardcon {
+            width: 392px;
+            height: 488px;
+       
+            margin-bottom: 59px;
+        }
+
+        .pagination {
+            margin-bottom: 70px;
+        }
+
+        .pagination a {
+            color: #80ad2d;
+width: 29px;
+            float: left;
+            border-radius: 100%;
+            padding: 10px;
+            margin-left: 15px;
+            text-decoration: none;
+            border: 1px solid #80ad2d;
+           
+        }
+
+        .next a:hover {
+            color: #ffffff;
+            background-color: #dddd;
+
+        }
+
+       .pagination .prev a {
+           
+            background-color: #80ad2d;
+
+        }
+
+        .cardbottom {
+            margin-bottom: 70px;
+        }
+
+        .social {
+
+            direction: ltr;
+            padding-left: 142px;
+        }
+
+        i {
+            color: white;
+            padding-right: 10px;
+            padding: 2px;
+        }
+        .back .container{
+            max-width: 100%;
+        }
+        .head{
+            font-family: 'DIN Next LT Arabic';
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="main">
+            <div class="headr0">
+                <div class="container">
+                    <img class="logo" src="img2/logo-01.png">
+                    <a href="#">الصفحة الرئيسية</a>
+                    <a href="#">من نحن</a>
+                    <a href="#">الخدمات والنتجات</a>
+                    <a href="#">الموردين</a>
+                    <a href="#">المركز الاعلامي</a>
+                    <a href="#">اتصل بنا</a>
+                    <img src="img2/layer_31_copy.png"> | 55 29019 <img style="margin-bottom: 2px;" src="img2/06.png"> <img style="padding-left:27px;"
+                        src="img2/calling.png"> <img src="img2/layer_9.png"><img src="img2/eng.png"> <img
+                        src="img2/globe_copy.png">
+                </div>
+            </div>
+            <div class="back">
+<div class="container">
+                <div class="textcont">
+                    <div class="text">
+                        الاخبار
+                    </div>
+                    <div class="text1">
+                        الرئيسية | <span class="news"> الاخبار</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="newssec">
+                <div class="container">
+<div class="container">  
+    <div class="row">
+        <div class="col-sm-4 cardcon">
+            <img class="imgcard" src="img2/screen_shot_2022-03-23_at_6.png">
+            <div>
+                <div class="head">
+                      مشاركة الشركة المنوذجية الاسلامية للتمويل الاصغر في يوم التوظيف بالتعاون
+                      .....
+                    </div>
+                <div class="desc">
+                    حصلت شركة الاتحاد العربي الدولي للتأمين على عطاء تأمين مباني ومستودعات أمانة عمان الكبرى
+                    وذلك حسب الانظمة والقوانين النافذه
+
+                </div>
+                <a class="more" href="#">عرض المزيد</a>
+            </div>
+        </div>
+        <div class="col-sm-4 cardcon">
+            <img class="imgcard" src="img2/rectangle_25_copy.png">
+            <div>
+                <div class="head">
+                    النموذجية الاسلامية للتمويل الاصغر توقع
+                    اتفاقية تعاون مع دروزة موترز
+
+                </div>
+                <div class="desc">
+                    قعت الشركة النموذجية الاسلامية للتمويل الاصغر اتفاقية تعاون مع شركة الماتورات الاردنية
+                    "دروزة موتورز" وتهدف الاتفاقية الى تمويل السكوترات
+
+                </div>
+                <a class="more" href="#">عرض المزيد</a>
+            </div>
+        </div>
+        <div class="col-sm-4 cardcon">
+            <img class="imgcard" src="img2/screen_shot_2022-03-23_at_7.png">
+            <div>
+                <div class="head">
+                    حفل إفتتاح فرع الزرقاء 2021/11/07
+
+                </div>
+                <div class="desc">
+                    فتتح رئيس هيئة المديرين للشركة النموذجية الإسلامية للتمويل الأصغر السيد/ عادل أسعد فرع
+                    الشركة الجديد في محافظة الزرقاء وذلك تحت رعاية رئيس غرفة تجارة الزرقاء السيد/ حسين شريم
+                    ونائبه
+                </div>
+                <a class="more" href="#">عرض المزيد</a>
+            </div>
+        </div>
+    </div>
+</div>
+                
+
+
+
+<div class="container">  
+    <div class="row">
+        <div class="col-sm-4 cardcon">
+            <img class="imgcard" src="img2/screen_shot_2022-03-23_at_6.png">
+            <div>
+                <div class="head">
+                      مشاركة الشركة المنوذجية الاسلامية للتمويل الاصغر في يوم التوظيف بالتعاون
+                      .....
+                    </div>
+                <div class="desc">
+                    حصلت شركة الاتحاد العربي الدولي للتأمين على عطاء تأمين مباني ومستودعات أمانة عمان الكبرى
+                    وذلك حسب الانظمة والقوانين النافذه
+
+                </div>
+                <a class="more" href="#">عرض المزيد</a>
+            </div>
+        </div>
+        <div class="col-sm-4 cardcon">
+            <img class="imgcard" src="img2/rectangle_25_copy.png">
+            <div>
+                <div class="head">
+                    النموذجية الاسلامية للتمويل الاصغر توقع
+                    اتفاقية تعاون مع دروزة موترز
+
+                </div>
+                <div class="desc">
+                    قعت الشركة النموذجية الاسلامية للتمويل الاصغر اتفاقية تعاون مع شركة الماتورات الاردنية
+                    "دروزة موتورز" وتهدف الاتفاقية الى تمويل السكوترات
+
+                </div>
+                <a class="more" href="#">عرض المزيد</a>
+            </div>
+        </div>
+        <div class="col-sm-4 cardcon">
+            <img class="imgcard" src="img2/screen_shot_2022-03-23_at_7.png">
+            <div>
+                <div class="head">
+                    حفل إفتتاح فرع الزرقاء 2021/11/07
+
+                </div>
+                <div class="desc">
+                    فتتح رئيس هيئة المديرين للشركة النموذجية الإسلامية للتمويل الأصغر السيد/ عادل أسعد فرع
+                    الشركة الجديد في محافظة الزرقاء وذلك تحت رعاية رئيس غرفة تجارة الزرقاء السيد/ حسين شريم
+                    ونائبه
+                </div>
+                <a class="more" href="#">عرض المزيد</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">  
+    <div class="row">
+        <div class="col-sm-4 cardcon">
+            <img class="imgcard" src="img2/screen_shot_2022-03-23_at_6.png">
+            <div>
+                <div class="head">
+                      مشاركة الشركة المنوذجية الاسلامية للتمويل الاصغر في يوم التوظيف بالتعاون
+                      .....
+                    </div>
+                <div class="desc">
+                    حصلت شركة الاتحاد العربي الدولي للتأمين على عطاء تأمين مباني ومستودعات أمانة عمان الكبرى
+                    وذلك حسب الانظمة والقوانين النافذه
+
+                </div>
+                <a class="more" href="#">عرض المزيد</a>
+            </div>
+        </div>
+        <div class="col-sm-4 cardcon">
+            <img class="imgcard" src="img2/rectangle_25_copy.png">
+            <div>
+                <div class="head">
+                    النموذجية الاسلامية للتمويل الاصغر توقع
+                    اتفاقية تعاون مع دروزة موترز
+
+                </div>
+                <div class="desc">
+                    قعت الشركة النموذجية الاسلامية للتمويل الاصغر اتفاقية تعاون مع شركة الماتورات الاردنية
+                    "دروزة موتورز" وتهدف الاتفاقية الى تمويل السكوترات
+
+                </div>
+                <a class="more" href="#">عرض المزيد</a>
+            </div>
+        </div>
+        <div class="col-sm-4 cardcon">
+            <img class="imgcard" src="img2/screen_shot_2022-03-23_at_7.png">
+            <div>
+                <div class="head">
+                    حفل إفتتاح فرع الزرقاء 2021/11/07
+
+                </div>
+                <div class="desc">
+                    فتتح رئيس هيئة المديرين للشركة النموذجية الإسلامية للتمويل الأصغر السيد/ عادل أسعد فرع
+                    الشركة الجديد في محافظة الزرقاء وذلك تحت رعاية رئيس غرفة تجارة الزرقاء السيد/ حسين شريم
+                    ونائبه
+                </div>
+                <a class="more" href="#">عرض المزيد</a>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+            </div>
+           <div class="container">
+            <div class="pagination">
+                <a style="background-color: gray;border:none;" class="prev" href="#"> <img src="img2/next_2_copy.png"></a>
+                   
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+
+                        <a style="background-color: #80ad2d;" class="next" href="#"> <img src="img2/next_2.png"></a>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+        <div class="footer  row">
+
+            <div class="col-sm-3 company">
+                <div class="tags"><img src="img2/logo-01.png"></div>
+                <div class="com">تاسست الشركة النمودجية ست الشركة النمودجية ست الشركة النمودجية ست الشركة النمودجية ست الشركة
+                    النمودجية </div>
+                <a style="text-decoration: underline;" href="#">عرض المزيد</a>
+
+            </div>
+
+
+
+
+            <div class="col-sm-3 fecialities">
+                <a href="#">من نحن</a>
+                <a href="#">الخدمات والمنتجات</a>
+                <a href="#">الموردين</a>
+                <a href="#">المركز الاعلامي</a>
+
+            </div>
+
+
+
+            <div class="col-sm-3 fecialities">
+                <a href="#">قائمة العواد والرسوم</a>
+                <a href="#">العملاء</a>
+                <a href="#">المرابحة</a>
+                <a href="#">حاسبة التمويل</a>
+
+            </div>
+
+            <div class="col-sm-3 fecialities">
+                <a href="#">تعليمات البنك المركزي</a>
+                <a href="#">الثقافة المالية المجتمعية</a>
+                <a href="#">دليل الحاكمية المؤسسية</a>
+                <a href="#">تعليمات حماية المستهلك</a>
+
+            </div>
+            <div class="col-sm-3 fecialities">
+                <a href="#">الأسئلة المتكررة</a>
+                <a href="#">وظائف</a>
+                <a href="#">اتصل بنا</a>
+
+            </div>
+
+            <div class=" social">
+                <div class="container">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+            </div>
+
+          
+        </div>
+
+
+    </div>
+   
+</div>
+<div class="footercopy ">
+    <div class="container">
+    <div class="row">
+        
+        <div class="col-sm-9 sec ">
+            <span class="dev">تطوير</span> <span class="develop"> شركة شعاع الأزرق لحلول البرمجيات.</span><span class="dev">جميع الحقوق محفوظة</span>
+         </div>
+
+<div class="col-sm-3  sec">
+   <span class="ifcon">الأحكام والشروط</span> <span>سياسة الخصوصية</span>
+</div>
+</div>
+</div>
+</div>
+</body>
+
+</html>

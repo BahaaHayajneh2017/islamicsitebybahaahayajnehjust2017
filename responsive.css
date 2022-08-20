@@ -1,0 +1,4538 @@
+
+@media only screen and (min-width: 1024px)and (max-width:1379px) {
+
+
+
+
+    body {
+        overflow-x: hidden;
+
+    }
+
+    /*Header And Footer*/
+    .textcont {
+        top: 211px;
+        bottom: -98px;
+        right: 133px;
+        direction: rtl;
+        width: 62%;
+        height: 175px;
+        padding: 25px;
+        bottom: 0px;
+    }
+    .text{
+        font-size: 1.1vw;
+    }
+.apply {
+    width: 90px;
+    height: 30px;
+
+    font-size: 0.8vw;
+    margin-bottom: 25px;
+}
+
+
+
+.next img{
+width: 3vw;
+}
+
+
+    .navbar-toggler {
+
+        font-size: 3vw !important;
+    }
+
+    .com {
+        font-size: 0.6rem;
+    }
+
+    .footer .col-sm-3 a,
+
+    .social i {
+
+        font-size: 0.8rem;
+
+    }
+
+    .footercopy .sec {
+        font-size: 0.7rem;
+    }
+
+    .hide {
+
+        padding: 19px;
+
+        width: 442px;
+
+
+
+    }
+
+    .nav-item .nav-link {
+
+        font-size: 0.65vw;
+        height: 10px;
+
+    }
+
+    .aboutcompanyhide {
+        font-size: 1.8vw;
+    }
+
+    .desccompanyhide {
+        font-size: 1vw;
+    }
+
+    .navhide ul li a {
+
+
+        font-size: 1vw;
+        font-weight: bold;
+        display: block;
+    }
+
+    .navbar-brand img {
+        width: 14vw;
+    }
+
+    .tags img {
+        width: 12vw;
+    }
+
+    /*Branch Page */
+    span.p2,
+    p.p1,
+    .divtext {
+        font-size: 1.1vw;
+    }
+
+    .branchname,
+    .golocation a {
+        font-size: 1rem;
+    }
+
+    .branchinfo {
+
+        font-size: 1rem;
+        box-shadow: 0px 0px 0px 0px #dddddd;
+    }
+
+    .cards.row .col-sm-3 {
+        margin-bottom: 100px;
+        width: 33%;
+    }
+
+
+
+
+
+
+
+
+    /*Complaints Page */
+    .container-fluid.complaintsSection .container {
+        font-size: 1.2vw;
+    }
+
+    .complaintskey,
+    .lab label,
+    .btnapplycomp {
+        font-size: 1.4vw;
+    }
+
+    .compaintsform input[type="text"],
+    .compaintsform input[type="email"],
+    textarea {
+        font-size: 1.4vw;
+        width: 100%;
+    }
+
+    /*Contact Us */
+    .contactword,
+    .helpword,
+    .goal,
+    .infocontact1,
+    .infocontact,
+    .labcontact label {
+        font-size: 1.4vw;
+    }
+
+    .sendcontact {
+        font-size: 1.4vw;
+        width: 100%;
+    }
+
+    .formcontacts input[type="text"],
+    .formcontacts input[type="email"],
+    .formcontacts textarea {
+        font-size: 1.6vw;
+        width: 100%;
+    }
+
+    .col-1 img {
+        width: 71px;
+        height: 100%;
+    }
+
+    .framelocation {
+        width: 100%;
+
+    }
+
+    /*jobs Page */
+
+
+    .jobshead,
+    .jobsdate,
+
+    .jobslogo {
+
+        font-size: 1.6vw;
+
+    }
+
+    .jobsbtn {
+        font-size: 1.5vw;
+    }
+
+    .jobsdesc {
+        font-size: 1.3vw;
+        width: 100%;
+    }
+
+    .cardcontent {
+        margin-right: 30px;
+    }
+
+    .jobscard .col-sm-4 {
+        padding: 25px;
+        margin-right: 30px;
+        height: 287px;
+        width: 48%;
+        margin-right: 17px;
+        margin-bottom: 15px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.19);
+    }
+
+    /*Lajna Page */
+
+    .lajnahead {
+        font-size: 2.1vw;
+
+    }
+
+    .lajnahead::after {
+        position: absolute;
+        top: 46px;
+
+        content: '';
+        right: 0px;
+        background-color: rgb(151, 200, 59);
+
+        width: 57px;
+        height: 1x;
+
+    }
+
+    .lajnadesc {
+        font-size: 1.4vw;
+
+    }
+
+    .lajnasection .col-sm-5 img {
+        width: 70%;
+    }
+
+    .lajnasection .col-sm-5 {
+        display: contents;
+
+    }
+
+    .col-sm-7.lajnacard {
+
+        width: 100%;
+
+    }
+
+    /*Majles Page */
+    .managerword {
+        font-size: 4vw;
+        margin-bottom: 10px;
+    }
+
+    .majlesword {
+        font-size: 2.7vw;
+    }
+
+    .majlesname {
+        font-size: 1.9vw;
+    }
+
+    .rqabasection .col-sm-4 {
+        width: 33.333%;
+    }
+
+    .rqabasection .col-sm-4 img {
+        width: 70%;
+    }
+
+    .majlesword img {
+        display: none;
+    }
+
+
+    .managesection .col-sm-4 {
+        width: 33.333333%;
+    }
+
+    .managesection .col-sm-4 img {
+        width: 70%;
+    }
+
+    .squareimg img {
+
+        top: -10px;
+        z-index: -1;
+        right: -4px;
+    }
+
+    .squareimg1 img {
+        position: absolute;
+        z-index: -1;
+        top: -10px;
+        right: -4px;
+    }
+
+    /*Messege Page */
+
+    .container-fluid.messegepage {
+        width: 100%;
+        border-radius: 50px;
+        height: auto;
+    }
+    .visiondescription {
+        font-size: 1.2vw;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    span.messegekeyword {
+        font-size: 2.2vw;
+    }
+
+    span.messegekeyword::after {
+        position: absolute;
+        content: '';
+        top: 42px;
+   
+        right: 0;
+        width: 53px;
+        background-color: #97c83b;
+        height: 5px;
+        bottom: 0;
+    }
+
+    .messegepage .col-sm-4 {
+        width: 50%;
+
+    }
+
+
+    .messegepage .col-sm-4 img {
+        width: 100%;
+        height: 314px;
+    }
+
+    /*Mordeen Page */
+    .mordeensection {
+        margin-bottom: 62px;
+    }
+
+    .moredhoverimg img {
+        width: 100%;
+    }
+
+    .moredname {
+        font-size: 1.1vw;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .moredhoverimg {
+        width: 98%;
+    }
+
+
+
+    .mordeensection .col-sm-3 {
+        width: 25%;
+        margin-bottom: 12px;
+    }
+
+    .page-link {
+        font-size: 1.1vw;
+    }
+
+    /*Nabtha Page */
+
+    .nabthahead {
+        font-size: 2vw;
+    }
+    .nabthahead::after {
+        position: absolute;
+        top: 45px;
+        border: 2px solid rgb(151, 200, 59);
+        content: '';
+        background-color: rgb(151 200 59);
+        right: 0;
+        width: 13%;
+        height: 6px;
+    }
+    .nabthasection .col-sm-6 img {
+        width: 76%;
+        margin-bottom: 12px;
+    }
+
+    .nabthadesc {
+        font-size: 1.3vw;
+    }
+
+    .col-6.nabthacard {
+        margin-top: 90px;
+    }
+
+
+    /*Needs Page */
+
+    .neddsdesc {
+        font-size: 1.3vw;
+    }
+
+ 
+
+    .needspage .col-sm-3 {
+        width: 30%;
+        height: 225px;
+    }
+
+
+    /*News Page */
+
+    .head {
+        font-size: 1.3vw;
+    }
+
+    .desc {
+        font-size: 1.3vw;
+        width: 100%;
+    }
+
+
+    .more a {
+        font-size: 1.3vw;
+
+    }
+
+    .cardnews {
+        width: 33%;
+        height: 470px;
+        margin-bottom: 52px;
+    }
+    /*Services Page */
+
+
+    .descsevshadow,
+    .servcardreadmore a {
+        font-size: 1vw;
+    }
+    .servcardreadmore a::after {
+
+        top: 28px;
+    
+
+        right: 24px;
+  
+        width: 49px;
+      
+    }
+    .tamdesc {
+
+        font-size: 1.7vw;
+    }
+
+    .servsec .col-sm-4 {
+        width: 33.3333%;
+        margin-bottom: 15px;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 6vw;
+    }
+
+    .logoshadow img {
+        width: 3vw;
+        margin-top: 83px;
+        margin-right: 10px;
+    }
+
+    .headersevshadow {
+        font-size: 1.7vw;
+        margin-right: 10px;
+    }
+
+    /*Responsibility Page */
+    .container.responsdiv {
+        font-size: 1.3vw;
+        width: 90%;
+    }
+
+    .margnews {
+        margin-bottom: 30px;
+    }
+
+    /*Values Page */
+
+    .valuesheader {
+        font-size: 1.7vw;
+
+    }
+
+    .valuesdesc {
+        font-size: 1.4vw;
+
+    }
+
+    .valuescard {
+        margin-bottom: 68px;
+    }
+
+    .valueslogo img {
+        width: 7vw;
+    
+        margin-bottom: 22px;
+    }
+
+
+    /*Vision Page */
+    span.visionkeyword {
+        font-size: 2.2vw;
+    }
+    .visionimage img{
+        width: 5vw;
+    }
+    span.visionkeyword::after {
+        position: absolute;
+        content: '';
+        top: 42px;
+        right: 0;
+        /* left: -3px; */
+        width: 54px;
+        background-color: #97c83b;
+        height: 5px;
+        bottom: 0;
+    }
+    .container-fluid.visionpage {
+        width: 85%;
+        border-radius: 140px;
+        height: auto;
+    }
+    .visionpage .col-sm-4 img {
+        width: 32vw;
+        height: 253px;
+    }
+
+    .container-fluid.visionpage .col-sm-4 {
+        width: 40%;
+    }
+
+
+
+
+
+    /*Home Page */
+
+    .headertamshadow,
+    .newskey,
+    .shownews,
+    .supkey,
+    .showsup,
+    .texthead {
+        font-size: 1.2vw;
+    }
+
+    .tamweelkey {
+        font-size: 2vw;
+    }
+
+    .showsup::after {
+        display: none;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 4vw;
+    }
+
+    .desctamshadow,
+    .envcal,
+    .proj,
+    .inputrange label,
+    .inputrange1 label,
+    .inforange,
+    .inputrange1 .inforange,
+    .inputrange .inforange {
+        font-size: 1.1vw;
+    }
+    .readmore{
+        font-size: 1vw;
+    }
+    .desc1,
+  
+    .tamcardreadmore a {
+        width: 85%;
+        font-size: 1.3vw;
+    }
+
+    .dir img {
+        width: 5vw;
+    }
+    .tamweelsec .col-sm-4 {
+        width: 33.3333%;
+        margin-bottom: 15px;
+    }
+    .visionsec {
+        height: 480px;
+        margin-bottom: 100px;
+    }
+
+    .tamcardreadmore a::after {
+        display: none;
+    }
+
+    .readmore::after {
+        position: absolute;
+        top: 23px;
+        background-color: #404040;
+        content: '';
+        right: 16px;
+        width: 44px;
+        height: 1px;
+    }
+
+    .calcmonth {
+        font-size: 2vw;
+    }
+
+
+    .selsty {
+        margin-right: 10px;
+        width: 100%;
+        font-size: 1.1vw;
+    }
+
+
+    .container.rangesec {
+        margin-right: 10px;
+    }
+
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 100%;
+    }
+
+    .inputinfo {
+        margin-right: 178px;
+    }
+
+    .monthpay {
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 1.9vw;
+    }
+    .calcelect {
+        font-size: 1.1vw;
+      
+        padding: 24px;
+        margin-right: 283px;
+        margin-bottom: 56px;
+    }
+
+    .infohead {
+        font-size: 1.9vw;
+
+    }
+
+    .num {
+        font-size: 3vw;
+    }
+
+    .infosec .col-sm-4 {
+        width: 33.333%;
+    }
+
+
+    .imginfosec img {
+        width: 5vw;
+    }
+
+    .imgicons img {
+        display: none;
+
+    }
+
+    .suggestkey,
+    .location {
+        font-size: 2.4vw;
+    }
+
+    .contactsec input[type="text"],
+    .contactsec input[type="email"],
+    .contactsec textarea {
+        font-size: 2.6vw;
+        margin-bottom: 10px;
+        width: 100%;
+        color: #bbbbbb;
+
+
+    }
+
+    .btncontact {
+        font-size: 1.1vw;
+        margin-bottom: 20px;
+    }
+
+    .locationframe {
+        width: 100%;
+    }
+
+    .imgvisionicon img {
+        width: 8vw;
+    }
+
+
+/*My Needs Page */
+
+.myneedswords
+{
+    font-size: 1.4vw;
+}
+.productheader
+
+{
+    width: 30%;
+    font-size: 3vw;
+}
+
+.col-10.needsinfoheader
+{
+    width: 68%;
+    font-size: 3vw;
+}
+.col-2.product {
+    width: 30%;
+    font-size: 2vw;
+    padding: 12px;
+}
+.col-10.needsinfo
+{
+    width: 68%;
+    font-size: 2vw;
+}
+
+
+}
+
+@media only screen and (min-width: 992px)and (max-width:1023px) {
+
+
+
+    body {
+        overflow-x: hidden;
+
+    }
+
+    /*Header And Footer*/
+    .textcont {
+        top: 98px;
+        bottom: -98px;
+        right: 133px;
+        direction: rtl;
+        width: 62%;
+        height: 175px;
+        padding: 25px;
+        bottom: 0px;
+    }
+    .text{
+        font-size: 1.2vw;
+    }
+.apply {
+    width: 90px;
+    height: 30px;
+
+    font-size: 1vw;
+    margin-bottom: 25px;
+}
+
+
+
+.next img{
+width: 3vw;
+}
+
+
+    .navbar-toggler {
+
+        font-size: 3vw !important;
+    }
+
+    .com {
+        font-size: 0.6rem;
+    }
+
+    .footer .col-sm-3 a,
+
+    .social i {
+
+        font-size: 0.8rem;
+
+    }
+
+    .footercopy .sec {
+        font-size: 0.7rem;
+    }
+
+    .hide {
+
+        padding: 19px;
+
+        width: 442px;
+
+
+
+    }
+
+    .nav-item .nav-link {
+
+        font-size: 0.6vw;
+        height: 10px;
+
+    }
+
+    .aboutcompanyhide {
+        font-size: 1.8vw;
+    }
+
+    .desccompanyhide {
+        font-size: 1vw;
+    }
+
+    .navhide ul li a {
+
+
+        font-size: 1vw;
+        font-weight: bold;
+        display: block;
+    }
+
+    .navbar-brand img {
+        width: 14vw;
+    }
+
+    .tags img {
+        width: 12vw;
+    }
+
+    /*Branch Page */
+    span.p2,
+    p.p1,
+    .divtext {
+        font-size: 1.9vw;
+    }
+
+    .branchname,
+    .golocation a {
+        font-size: 1rem;
+    }
+
+    .branchinfo {
+
+        font-size: 1rem;
+        box-shadow: 0px 0px 0px 0px #dddddd;
+    }
+
+    .cards.row .col-sm-3 {
+        margin-bottom: 100px;
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+    /*Complaints Page */
+    .container-fluid.complaintsSection .container {
+        font-size: 1.4vw;
+    }
+
+    .complaintskey,
+    .lab label,
+    .btnapplycomp {
+        font-size: 1.6vw;
+    }
+
+    .compaintsform input[type="text"],
+    .compaintsform input[type="email"],
+    textarea {
+        font-size: 1.9vw;
+        width: 100%;
+    }
+
+    /*Contact Us */
+    .contactword,
+    .helpword,
+    .goal,
+    .infocontact1,
+    .infocontact,
+    .labcontact label {
+        font-size: 1.4vw;
+    }
+
+    .sendcontact {
+        font-size: 1.4vw;
+        width: 100%;
+    }
+
+    .formcontacts input[type="text"],
+    .formcontacts input[type="email"],
+    .formcontacts textarea {
+        font-size: 1.6vw;
+        width: 100%;
+    }
+
+    .col-1 img {
+        width: 71px;
+        height: 100%;
+    }
+
+    .framelocation {
+        width: 100%;
+
+    }
+
+    /*jobs Page */
+
+
+    .jobshead,
+    .jobsdate,
+
+    .jobslogo {
+
+        font-size: 1.6vw;
+
+    }
+
+    .jobsbtn {
+        font-size: 1.5vw;
+    }
+
+    .jobsdesc {
+        font-size: 1.3vw;
+        width: 100%;
+    }
+
+    .cardcontent {
+        margin-right: 30px;
+    }
+
+    .jobscard .col-sm-4 {
+        padding: 25px;
+        margin-right: 30px;
+        height: 287px;
+        width: 48%;
+        margin-right: 17px;
+        margin-bottom: 15px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.19);
+    }
+    /*Lajna Page */
+
+    .lajnahead {
+        font-size: 2.1vw;
+
+    }
+
+    .lajnahead::after {
+        position: absolute;
+        top: 46px;
+
+        content: '';
+        right: 0px;
+        background-color: rgb(151, 200, 59);
+
+        width: 57px;
+        height: 1x;
+
+    }
+
+    .lajnadesc {
+        font-size: 1.6vw;
+
+    }
+
+    .lajnasection .col-sm-5 img {
+        width: 70%;
+    }
+
+    .lajnasection .col-sm-5 {
+        display: contents;
+
+    }
+
+    .col-sm-7.lajnacard {
+
+        width: 100%;
+
+    }
+
+    /*Majles Page */
+    .managerword {
+        font-size: 4vw;
+        margin-bottom: 10px;
+    }
+
+    .majlesword {
+        font-size: 2.7vw;
+    }
+
+    .majlesname {
+        font-size: 1.9vw;
+    }
+
+    .rqabasection .col-sm-4 {
+        width: 33.333%;
+    }
+
+    .rqabasection .col-sm-4 img {
+        width: 70%;
+    }
+
+    .majlesword img {
+        display: none;
+    }
+
+
+    .managesection .col-sm-4 {
+        width: 33.333333%;
+    }
+
+    .managesection .col-sm-4 img {
+        width: 70%;
+    }
+
+    .squareimg img {
+
+        top: -10px;
+        z-index: -1;
+        right: -4px;
+    }
+
+    .squareimg1 img {
+        position: absolute;
+        z-index: -1;
+        top: -10px;
+        right: -4px;
+    }
+
+    /*Messege Page */
+
+    .container-fluid.messegepage {
+        width: 100%;
+        border-radius: 50px;
+        height: auto;
+    }
+    .visiondescription {
+        font-size: 1.5vw;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    span.messegekeyword {
+        font-size: 2.2vw;
+    }
+
+    span.messegekeyword::after {
+        position: absolute;
+        content: '';
+        top: 42px;
+   
+        right: 0;
+        width: 53px;
+        background-color: #97c83b;
+        height: 5px;
+        bottom: 0;
+    }
+
+    .messegepage .col-sm-4 {
+        width: 50%;
+
+    }
+
+    .messegepage .col-sm-4 img {
+        width: 77%;
+        height: 314px;
+    }
+
+    /*Mordeen Page */
+    .mordeensection {
+        margin-bottom: 62px;
+    }
+
+    .moredhoverimg img {
+        width: 60%;
+    }
+
+    .moredname {
+        font-size: 1.7vw;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .moredhoverimg {
+        width: 98%;
+    }
+
+
+
+    .mordeensection .col-sm-3 {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+
+    .page-link {
+
+        font-size: 1.4vw;
+
+    }
+
+    /*Nabtha Page */
+
+    .nabthahead {
+        font-size: 3vw;
+
+    }
+
+    .nabthasection .col-sm-6 img {
+        width: 53%;
+        margin-bottom: 12px;
+    }
+
+    .nabthadesc {
+        font-size: 1.6vw;
+    }
+
+    .col-6.nabthacard {
+        margin-top: 90px;
+    }
+
+
+    /*Needs Page */
+
+    .neddsdesc {
+        font-size: 1.3vw;
+    }
+
+    .squareneeds {
+        display: none;
+    }
+
+    .needspage .col-sm-3 {
+        width: 30%;
+        height: 200px;
+    }
+
+
+    /*News Page */
+
+    .head {
+        font-size: 1.3vw;
+    }
+
+    .desc {
+        font-size: 1.3vw;
+        width: 100%;
+    }
+
+
+    .more a {
+        font-size: 1.3vw;
+
+    }
+
+    .cardnews {
+        width: 33%;
+        height: 470px;
+        margin-bottom: 52px;
+    }
+    /*Services Page */
+
+
+    .descsevshadow,
+    .servcardreadmore a {
+        font-size: 1vw;
+    }
+    .servcardreadmore a::after {
+
+        top: 28px;
+    
+
+        right: 24px;
+  
+        width: 49px;
+      
+    }
+    .tamdesc {
+
+        font-size: 1.7vw;
+    }
+
+    .servsec .col-sm-4 {
+        width: 33.3333%;
+        margin-bottom: 15px;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 6vw;
+    }
+
+    .logoshadow img {
+        width: 3vw;
+        margin-top: 83px;
+        margin-right: 10px;
+    }
+
+    .headersevshadow {
+        font-size: 1.7vw;
+        margin-right: 10px;
+    }
+
+    /*Responsibility Page */
+    .container.responsdiv {
+        font-size: 1.3vw;
+        width: 90%;
+    }
+
+    .margnews {
+        margin-bottom: 30px;
+    }
+
+    /*Values Page */
+
+    .valuesheader {
+        font-size: 1.7vw;
+
+    }
+
+    .valuesdesc {
+        font-size: 1.4vw;
+
+    }
+
+    .valuescard {
+        margin-bottom: 68px;
+    }
+
+    .valueslogo img {
+        width: 7vw;
+    
+        margin-bottom: 22px;
+    }
+
+
+    /*Vision Page */
+    span.visionkeyword {
+        font-size: 2.2vw;
+    }
+    .visionimage img{
+        width: 5vw;
+    }
+    span.visionkeyword::after {
+        position: absolute;
+        content: '';
+        top: 42px;
+        right: 0;
+        /* left: -3px; */
+        width: 54px;
+        background-color: #97c83b;
+        height: 5px;
+        bottom: 0;
+    }
+    .container-fluid.visionpage {
+        width: 94%;
+        border-radius: 150px;
+        height: auto;
+    }
+    .visionpage .col-sm-4 img {
+        width: 40vw;
+        height: 200px;
+    }
+    .container-fluid.visionpage .col-sm-4 {
+        width: 50%;
+    }
+    /*Home Page */
+
+    .headertamshadow,
+    .newskey,
+    .shownews,
+    .supkey,
+    .showsup,
+    .texthead {
+        font-size: 1.2vw;
+    }
+
+    .tamweelkey {
+        font-size: 2vw;
+    }
+
+    .showsup::after {
+        display: none;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 4vw;
+    }
+
+    .desctamshadow,
+    .envcal,
+    .proj,
+    .inputrange label,
+    .inputrange1 label,
+    .inforange,
+    .inputrange1 .inforange,
+    .inputrange .inforange,
+    .text {
+        font-size: 1.1vw;
+    }
+    .readmore{
+        font-size: 1vw;
+    }
+    .desc1,
+  
+    .tamcardreadmore a {
+        width: 85%;
+        font-size: 1.3vw;
+    }
+
+    .dir img {
+        width: 5vw;
+    }
+    .tamweelsec .col-sm-4 {
+        width: 33.3333%;
+        margin-bottom: 15px;
+    }
+    .visionsec {
+        height: 480px;
+        margin-bottom: 100px;
+    }
+
+    .tamcardreadmore a::after {
+        display: none;
+    }
+
+    .readmore::after {
+        position: absolute;
+        top: 23px;
+        background-color: #404040;
+        content: '';
+        right: 16px;
+        width: 44px;
+        height: 1px;
+    }
+
+    .calcmonth {
+        font-size: 2vw;
+    }
+
+
+    .selsty {
+        margin-right: 10px;
+        width: 100%;
+        font-size: 1.1vw;
+    }
+
+
+    .container.rangesec {
+        margin-right: 10px;
+    }
+
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 100%;
+    }
+
+    .inputinfo {
+        margin-right: 10px;
+
+    }
+
+    .monthpay {
+        width: 50%;
+        text-align: center;
+        margin-right: 23%;
+      
+        margin-bottom: 50px;
+        font-size: 1.1vw;
+    }
+    .calcelect {
+        font-size: 1.1vw;
+        width: 50%;
+        padding: 24px;
+        margin-right: 23%;
+        margin-bottom: 56px;
+    }
+
+    .infohead {
+        font-size: 1.9vw;
+
+    }
+
+    .num {
+        font-size: 3vw;
+    }
+
+    .infosec .col-sm-4 {
+        width: 33.333%;
+    }
+
+
+    .imginfosec img {
+        width: 5vw;
+    }
+
+    .imgicons img {
+        display: none;
+
+    }
+
+    .suggestkey,
+    .location {
+        font-size: 2.4vw;
+    }
+
+    .contactsec input[type="text"],
+    .contactsec input[type="email"],
+    .contactsec textarea {
+        font-size: 2.6vw;
+        margin-bottom: 10px;
+        width: 100%;
+        color: #bbbbbb;
+
+
+    }
+
+    .btncontact {
+        font-size: 1.1vw;
+        margin-bottom: 20px;
+    }
+
+    .locationframe {
+        width: 100%;
+    }
+
+    .imgvisionicon img {
+        width: 8vw;
+    }
+/*My Needs Page */
+
+.myneedswords
+{
+    font-size: 1.4vw;
+}
+.productheader
+
+{
+    width: 30%;
+    font-size: 3vw;
+}
+
+.col-10.needsinfoheader
+{
+    width: 68%;
+    font-size: 3vw;
+}
+.col-2.product {
+    width: 30%;
+    font-size: 2vw;
+    padding: 12px;
+}
+.col-10.needsinfo
+{
+    width: 68%;
+    font-size: 2vw;
+}
+
+
+
+}
+
+@media only screen and (min-width: 768px)and (max-width:991px) {
+
+
+
+  
+
+    body {
+        overflow-x: hidden;
+
+    }
+
+    /*Header And Footer*/
+
+    .textcont {
+        top: 98px;
+        bottom: -98px;
+        right: 133px;
+        direction: rtl;
+        width: 62%;
+        height: 175px;
+        padding: 25px;
+        bottom: 0px;
+    }
+    .text{
+        font-size: 1.2vw;
+    }
+.apply {
+    width: 90px;
+    height: 30px;
+
+    font-size: 1.1vw;
+    margin-bottom: 25px;
+}
+
+
+
+.next img{
+width: 4vw;
+}
+
+
+
+    .navbar-toggler {
+
+        font-size: 3vw !important;
+    }
+
+    .com {
+        font-size: 0.6rem;
+    }
+
+    .footer .col-sm-3 a,
+
+    .social i {
+
+        font-size: .75rem;
+
+    }
+
+    .footercopy .sec {
+        font-size: 0.6rem;
+    }
+
+    .hide {
+
+        padding: 19px;
+
+        width: 442px;
+
+
+
+    }
+
+    .nav-item .nav-link {
+
+        font-size: 1.7vw;
+        height: 10px;
+
+    }
+
+    .aboutcompanyhide {
+        font-size: 1.8vw;
+    }
+
+    .desccompanyhide {
+        font-size: 1.7vw;
+    }
+
+    .navhide ul li a {
+
+
+        font-size: 1.7vw;
+        font-weight: bold;
+        display: block;
+    }
+
+    .navbar-brand img {
+        width: 14vw;
+    }
+
+    .tags img {
+        width: 12vw;
+    }
+
+    /*Branch Page */
+    span.p2,
+    p.p1 {
+        font-size: 1.7vw;
+    }
+    .divtext {
+        font-size: 1.7vw;
+        right: 72px;
+        top: 118px;
+    }
+
+    .branchname,
+    .golocation a {
+        font-size: 0.9rem;
+    }
+
+    .branchinfo {
+
+        font-size: 0.9rem;
+        box-shadow: 0px 0px 0px 0px #dddddd;
+    }
+
+    .cards.row .col-sm-3 {
+        margin-bottom: 100px;
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+    /*Complaints Page */
+    .container-fluid.complaintsSection .container,
+    .complaintskey,
+    .lab label,
+    .btnapplycomp {
+        font-size: 1.4vw;
+    }
+
+    .compaintsform input[type="text"],
+    .compaintsform input[type="email"],
+    textarea {
+        font-size: 1.9vw;
+        width: 100%;
+    }
+
+    /*Contact Us */
+    .contactword,
+    .helpword,
+    .goal,
+    .infocontact1,
+    .infocontact,
+    .labcontact label {
+        font-size: 1.4vw;
+    }
+
+    .sendcontact {
+        font-size: 1.4vw;
+        width: 100%;
+    }
+
+    .formcontacts input[type="text"],
+    .formcontacts input[type="email"],
+    .formcontacts textarea {
+        font-size: 1.6vw;
+        width: 100%;
+    }
+
+    .col-1 img {
+        width: 71px;
+        height: 100%;
+    }
+
+    .framelocation {
+        width: 100%;
+
+    }
+
+    /*jobs Page */
+
+
+    .jobshead,
+    .jobsdate,
+
+    .jobslogo {
+
+        font-size: 1.8vw;
+
+    }
+
+    .jobsbtn {
+        font-size: 1.5vw;
+    }
+
+    .jobsdesc {
+        font-size: 1.6vw;
+        width: 100%;
+    }
+
+    .cardcontent {
+        margin-right: 30px;
+    }
+
+    .jobscard .col-sm-4 {
+        padding: 25px;
+        height: 220px;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.19);
+    }
+    /*Lajna Page */
+
+    .lajnahead {
+        font-size: 2.4vw;
+
+    }
+
+    .lajnahead::after {
+        position: absolute;
+        top: 46px;
+
+        content: '';
+        right: 0px;
+        background-color: rgb(151, 200, 59);
+
+        width: 57px;
+        height: 1x;
+
+    }
+
+    .lajnadesc {
+        font-size: 2.1vw;
+
+    }
+
+    .lajnasection .col-sm-5 img {
+        width: 90%;
+    }
+
+    .lajnasection .col-sm-5 {
+        display: contents;
+
+    }
+
+    .col-sm-7.lajnacard {
+
+        width: 100%;
+
+    }
+
+    /*Majles Page */
+    .majlesword,
+    .managerword {
+        font-size: 2.9vw;
+        margin-bottom: 10px;
+    }
+
+    .majlesname {
+        font-size: 1.9vw;
+    }
+
+    .rqabasection .col-sm-4 {
+        width: 50%;
+    }
+
+    .rqabasection .col-sm-4 img {
+        width: 70%;
+    }
+
+    .majlesword img {
+        display: none;
+    }
+
+
+    .managesection .col-sm-4 {
+        width: 50%;
+    }
+
+    .managesection .col-sm-4 img {
+        width: 70%;
+    }
+
+    .squareimg img {
+        display: none;
+    }
+
+    .squareimg1 img {
+        display: none;
+    }
+
+    /*Messege Page */
+
+    .container-fluid.messegepage {
+        width: 80%;
+        border-radius: 150px;
+        height: 400px;
+
+    }
+
+    .visiondescription {
+        font-size: 1.4vw;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .visionimage img {
+
+        width: 5vw;
+    }
+
+    span.messegekeyword {
+        font-size: 3vw;
+    }
+
+    span.messegekeyword::after {
+        position: absolute;
+        content: '';
+        top: 43px;
+        left: 9px;
+        width: 74px;
+        background-color: #97c83b;
+        height: 5px;
+        bottom: 0;
+    }
+    .messegepage .col-sm-6 {
+        width: 60%;
+    }
+    .messegepage .col-sm-4 {
+        width: 40%;
+
+    }
+
+
+    .messegepage .col-sm-4 img {
+        width: 55%;
+        height: 160px;
+    }
+
+
+    /*Mordeen Page */
+    .mordeensection {
+        margin-bottom: 62px;
+    }
+
+    .moredhoverimg img {
+        width: 100%;
+    }
+
+    .moredname {
+
+        font-size: 1.5vw;
+        text-align: center;
+        width: 100%;
+    }
+
+    .moredhoverimg {
+        width: 100%;
+    }
+
+
+
+    .mordeensection .col-sm-3 {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+
+    .page-link {
+
+        font-size: 1.9vw;
+
+    }
+
+    /*Nabtha Page */
+
+    .nabthahead {
+        font-size: 3vw;
+
+    }
+
+    .nabthasection .col-sm-6 img {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .nabthadesc {
+        font-size: 1.9vw;
+    }
+
+    .col-6.nabthacard {
+        margin-top: 90px;
+    }
+
+
+
+
+    /*Needs Page */
+
+    .neddsdesc {
+        font-size: 1.9vw;
+    }
+
+    .squareneeds {
+        display: none;
+    }
+
+    .needspage .col-sm-3 {
+        width: 45%;
+        height: 200px;
+    }
+
+
+    /*News Page */
+
+    .head {
+        font-size: 1.8vw;
+    }
+
+    .desc {
+        font-size: 1.9vw;
+        width: 100%;
+    }
+
+
+    .more a {
+        font-size: 1.9vw;
+
+    }
+
+    .cardnews {
+        width: 50%;
+        height: 440px;
+        margin-bottom: 52px;
+    }
+
+    /*Services Page */
+
+
+    .descsevshadow,
+    .servcardreadmore a {
+        font-size: 1.5vw;
+    }
+
+    .tamdesc {
+
+        font-size: 2vw;
+    }
+
+    .servsec .col-sm-4 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 6vw;
+    }
+
+    .logoshadow img {
+        width: 6vw;
+        margin-top: 83px;
+        margin-right: 10px;
+    }
+
+    .headersevshadow {
+        font-size: 1.8vw;
+        margin-right: 10px;
+    }
+
+    /*Responsibility Page */
+    .container.responsdiv {
+        font-size: 1.7vw;
+        width: 90%;
+    }
+
+    .margnews {
+        margin-bottom: 30px;
+    }
+
+    /*Values Page */
+
+    .valuesheader {
+        font-size: 2vw;
+
+    }
+
+    .valuesdesc {
+        font-size: 1.7vw;
+
+    }
+
+    .valuescard {
+        margin-bottom: 68px;
+    }
+
+    .valueslogo img {
+        width: 10vw;
+        ;
+        margin-bottom: 22px;
+    }
+
+
+    /*Vision Page */
+    span.visionkeyword {
+        font-size: 2.2vw;
+    }
+    span.visionkeyword::after {
+        content: '';
+        top: 36px;
+        left: -3px;
+        width: 49px;
+        height: 3px;
+        bottom: 0;
+    }
+
+    .container-fluid.visionpage {
+        width: 90%;
+
+        border-radius: 150px;
+    }
+    .visionpage .col-sm-4 img {
+        width: 31vw;
+        height: 190px;
+    }
+
+    .container-fluid.visionpage .col-sm-4 {
+        width: 50%;
+    }
+
+    /*Home Page */
+
+    .headertamshadow,
+    .newskey,
+    .shownews,
+    .supkey,
+    .showsup,
+    .texthead {
+        font-size: 2.2vw;
+    }
+
+    .tamweelkey {
+        font-size: 3vw;
+    }
+
+    .showsup::after {
+        display: none;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 6vw;
+    }
+
+    .desctamshadow,
+    .envcal,
+    .proj,
+    .inputrange label,
+    .inputrange1 label,
+    .inforange,
+    .inputrange1 .inforange,
+    .inputrange .inforange {
+        font-size: 1.9vw;
+    }
+
+    .desc1,
+    .readmore,
+    .tamcardreadmore a {
+        width: 85%;
+        font-size: 1.9vw;
+    }
+
+    .dir img {
+        width: 10vw;
+    }
+
+    .tamweelsec .col-sm-4 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .visionsec {
+        height: 575px;
+        margin-bottom: 100px;
+    }
+
+    .tamcardreadmore a::after {
+        display: none;
+    }
+
+    .readmore::after {
+        position: absolute;
+        top: 23px;
+        background-color: #404040;
+        content: '';
+        right: 16px;
+        width: 44px;
+        height: 1px;
+    }
+
+    .calcmonth {
+        font-size: 3vw;
+    }
+
+
+    .selsty {
+        margin-right: 10px;
+        width: 100%;
+        font-size: 1.9vw;
+    }
+
+
+    .container.rangesec {
+        margin-right: 10px;
+    }
+
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 100%;
+    }
+
+    .inputinfo {
+        margin-right: 10px;
+
+    }
+
+    .monthpay {
+        width: 90%;
+        text-align: center;
+        height: 60px;
+        margin-bottom: 50px;
+        font-size: 1.9vw;
+    }
+    .calcelect {
+        font-size: 1.9vw;
+        margin-right: 5%;
+        width: 76%;
+        height: 60px;
+        margin-bottom: 56px;
+    }
+
+    .infohead {
+        font-size: 3vw;
+
+    }
+
+    .num {
+        font-size: 4vw;
+    }
+
+    .infosec .col-sm-4 {
+        width: 50%;
+    }
+
+
+    .imginfosec img {
+        width: 10vw;
+    }
+
+    .imgicons img {
+        display: none;
+
+    }
+
+    .suggestkey,
+    .location {
+        font-size: 3.4vw;
+    }
+
+    .contactsec input[type="text"],
+    .contactsec input[type="email"],
+    .contactsec textarea {
+        font-size: 2.6vw;
+        margin-bottom: 10px;
+        width: 100%;
+        color: #bbbbbb;
+
+
+    }
+
+    .btncontact {
+        font-size: 1.9vw;
+        margin-bottom: 20px;
+    }
+
+    .locationframe {
+        width: 100%;
+    }
+
+    .imgvisionicon img {
+        width: 9vw;
+    }
+
+    .contactsec .row .col-sm-6 {
+        width: 100%;
+    }
+/*My Needs Page */
+
+.myneedswords
+{
+    font-size: 1.4vw;
+}
+.productheader
+
+{
+    width: 30%;
+    font-size: 3vw;
+}
+
+.col-10.needsinfoheader
+{
+    width: 68%;
+    font-size: 3vw;
+}
+.col-2.product {
+    width: 30%;
+    font-size: 2vw;
+    padding: 17px;
+}
+.col-10.needsinfo
+{
+    width: 68%;
+    font-size: 2vw;
+}
+
+}
+
+@media only screen and (min-width: 600px)and (max-width:767px) {
+    .valuescard .col-sm-3 {
+        width: 50%;
+    }
+
+
+    body {
+        overflow-x: hidden;
+
+    }
+
+    /*Header And Footer*/
+
+    .textcont {
+ 
+        top: 50px;
+        bottom: -98px;
+        right: 133px;
+        direction: rtl;
+  
+        width: 62%;
+        height: 180px;
+        padding: 25px;
+        bottom: 0px;
+    }
+    .text{
+        font-size: 1.5vw;
+    }
+.apply {
+    width: 90px;
+    height: 30px;
+    color: #ffff;
+    font-size: 1.3vw;
+    margin-bottom: 25px;
+}
+.next img {
+  width: 3vw;
+}
+
+    .navbar-toggler {
+
+        font-size: 4vw !important;
+    }
+
+    .com {
+        font-size: 0.6rem;
+    }
+
+    .footer .col-sm-3 a,
+
+    .social i {
+
+        font-size: .7rem;
+
+    }
+
+    .footercopy .sec {
+        font-size: 0.6rem;
+    }
+
+    .hide {
+
+        padding: 19px;
+
+        width: 442px;
+
+
+
+    }
+
+    .nav-item .nav-link {
+
+        font-size: 1.5vw;
+        height: 10px;
+
+    }
+
+    .aboutcompanyhide {
+        font-size: 1.8vw;
+    }
+
+    .desccompanyhide {
+        font-size: 1.7vw;
+    }
+
+    .navhide ul li a {
+
+
+        font-size: 1.7vw;
+        font-weight: bold;
+        display: block;
+    }
+
+    .navbar-brand img {
+        width: 14vw;
+    }
+
+    .tags img {
+        width: 12vw;
+    }
+
+    /*Branch Page */
+    span.p2,
+    p.p1 {
+        font-size: 1.6vw;
+    }
+    .divtext {
+        font-size: 1.6vw;
+        right: 73px;
+        top: 100px;
+    }
+    .branchname,
+    .golocation a {
+        font-size: 0.7rem;
+    }
+
+    .branchinfo {
+
+        font-size: 1.9vw;
+        box-shadow: 0px 0px 0px 0px #dddddd;
+    }
+
+    .cards.row .col-sm-3 {
+        margin-bottom: 100px;
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+    /*Complaints Page */
+    .container-fluid.complaintsSection .container,
+    .complaintskey,
+    .lab label,
+    .btnapplycomp {
+        font-size: 1.4vw;
+    }
+
+    .compaintsform input[type="text"],
+    .compaintsform input[type="email"],
+    textarea {
+        font-size: 1.9vw;
+        width: 100%;
+    }
+
+    /*Contact Us */
+    .contactword,
+    .helpword,
+    .goal,
+    .infocontact1,
+    .infocontact,
+    .labcontact label {
+        font-size: 1.4vw;
+    }
+
+    .sendcontact {
+        font-size: 1.4vw;
+        width: 100%;
+    }
+
+    .formcontacts input[type="text"],
+    .formcontacts input[type="email"],
+    .formcontacts textarea {
+        font-size: 1.6vw;
+        width: 100%;
+    }
+
+    .col-1 img {
+        width: 71px;
+        height: 100%;
+    }
+
+    .framelocation {
+        width: 100%;
+
+    }
+
+    /*jobs Page */
+
+
+    .jobshead,
+    .jobsdate,
+
+    .jobslogo {
+
+        font-size: 1.8vw;
+
+    }
+
+    .jobsbtn {
+        font-size: 1.5vw;
+    }
+
+    .jobsdesc {
+        font-size: 1.6vw;
+        width: 100%;
+    }
+
+    .cardcontent {
+        margin-right: 30px;
+    }
+
+    .jobscard .col-sm-4 {
+        padding: 25px;
+        height: 220px;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.19);
+    }
+
+    /*Lajna Page */
+
+    .lajnahead {
+        font-size: 2.4vw;
+
+    }
+
+    .lajnahead::after {
+        position: absolute;
+        top: 46px;
+
+        content: '';
+        right: 0px;
+        background-color: rgb(151, 200, 59);
+
+        width: 57px;
+        height: 1x;
+
+    }
+
+    .lajnadesc {
+        font-size: 2.1vw;
+
+    }
+
+    .lajnasection .col-sm-5 img {
+        width: 90%;
+    }
+
+    .lajnasection .col-sm-5 {
+        display: contents;
+
+    }
+
+    .col-sm-7.lajnacard {
+
+        width: 100%;
+
+    }
+
+    /*Majles Page */
+    .majlesword,
+    .managerword {
+        font-size: 2.9vw;
+        margin-bottom: 10px;
+    }
+
+    .majlesname {
+        font-size: 1.9vw;
+    }
+
+    .rqabasection .col-sm-4 {
+        width: 50%;
+    }
+
+    .rqabasection .col-sm-4 img {
+        width: 70%;
+    }
+
+    .majlesword img {
+        display: none;
+    }
+
+
+    .managesection .col-sm-4 {
+        width: 50%;
+    }
+
+    .managesection .col-sm-4 img {
+        width: 70%;
+    }
+
+    .squareimg img {
+        display: none;
+    }
+
+    .squareimg1 img {
+        display: none;
+    }
+
+    /*Messege Page */
+
+    .container-fluid.messegepage {
+        width: 100%;
+        border-radius: 50px;
+        height: 400px;
+
+    }
+
+    .visiondescription {
+        font-size: 2.1vw;
+
+
+    }
+
+    .visionimage img {
+      width: 6vw;
+    }
+
+    span.messegekeyword {
+        font-size: 6vw;
+    }
+
+    span.messegekeyword::after {
+        position: absolute;
+        content: '';
+        top: 28px;
+        left: 26px;
+        width: 35px;
+        background-color: #97c83b;
+        height: 3px;
+        bottom: 0;
+    }
+
+    .messegepage .col-sm-4 {
+        width: 50%;
+
+    }
+
+
+    .messegepage .col-sm-4 img {
+        width: 55%;
+        height: 160px;
+    }
+
+
+    /*Mordeen Page */
+    .mordeensection {
+        margin-bottom: 62px;
+    }
+
+    .moredhoverimg img {
+        width: 100%;
+    }
+
+    .moredname {
+
+        font-size: 1.5vw;
+        text-align: center;
+        width: 100%;
+    }
+
+    .moredhoverimg {
+        width: 100%;
+    }
+
+
+
+    .mordeensection .col-sm-3 {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+
+    .page-link {
+
+        font-size: 1.9vw;
+
+    }
+
+    /*Nabtha Page */
+
+    .nabthahead {
+        font-size: 3vw;
+
+    }
+
+    .nabthasection .col-sm-6 img {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .nabthadesc {
+        font-size: 1.9vw;
+    }
+
+    .col-6.nabthacard {
+        margin-top: 90px;
+    }
+
+
+
+
+    /*Needs Page */
+
+    .neddsdesc {
+        font-size: 1.9vw;
+    }
+
+    .squareneeds {
+        display: none;
+    }
+
+    .needspage .col-sm-3 {
+        width: 45%;
+        height: 200px;
+    }
+
+
+    /*News Page */
+
+    .head {
+        font-size: 1.8vw;
+    }
+
+    .desc {
+        font-size: 1.9vw;
+        width: 100%;
+    }
+
+
+    .more a {
+        font-size: 1.9vw;
+
+    }
+
+    .cardnews {
+        width: 50%;
+        height: 440px;
+        margin-bottom: 52px;
+    }
+
+    /*Services Page */
+
+
+    .descsevshadow,
+    .servcardreadmore a {
+        font-size: 1.5vw;
+    }
+
+    .tamdesc {
+
+        font-size: 2vw;
+    }
+
+    .servsec .col-sm-4 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 6vw;
+    }
+
+    .logoshadow img {
+        width: 6vw;
+        margin-top: 83px;
+        margin-right: 10px;
+    }
+
+    .headersevshadow {
+        font-size: 1.8vw;
+        margin-right: 10px;
+    }
+
+    /*Responsibility Page */
+    .container.responsdiv {
+        font-size: 1.7vw;
+        width: 90%;
+    }
+
+    .margnews {
+        margin-bottom: 30px;
+    }
+
+    /*Values Page */
+
+    .valuesheader {
+        font-size: 2vw;
+
+    }
+
+    .valuesdesc {
+        font-size: 1.7vw;
+
+    }
+
+    .valuescard {
+        margin-bottom: 68px;
+    }
+
+    .valueslogo img {
+        width: 10vw;
+        ;
+        margin-bottom: 22px;
+    }
+
+
+    /*Vision Page */
+    span.visionkeyword {
+        font-size: 2.2vw;
+    }
+
+    span.visionkeyword::after {
+        position: absolute;
+        content: '';
+        top: 22px;
+        left: -3px;
+
+        width: 35px;
+
+        background-color: #97c83b;
+        height: 3px;
+        bottom: 0;
+    }
+
+    .container-fluid.visionpage {
+        width: 100%;
+
+        border-radius: 150px;
+    }
+    .visionpage .col-sm-4
+    {
+        width: 40%;
+    }
+    .visionpage .col-sm-6
+    {
+        width: 60%;
+    }
+    .visionpage .col-sm-4 img {
+        width: 30vw;
+        height: 190px;
+    }
+
+    /*Home Page */
+
+    .headertamshadow,
+    .newskey,
+    .shownews,
+    .supkey,
+    .showsup,
+    .texthead {
+        font-size: 2.2vw;
+    }
+
+    .tamweelkey {
+        font-size: 3vw;
+    }
+
+    .showsup::after {
+        display: none;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 6vw;
+    }
+
+    .desctamshadow,
+    .envcal,
+    .proj,
+    .inputrange label,
+    .inputrange1 label,
+    .inforange,
+    .inputrange1 .inforange,
+    .inputrange .inforange
+    {
+        font-size: 1.9vw;
+    }
+
+    .desc1,
+    .readmore,
+    .tamcardreadmore a {
+        width: 85%;
+        font-size: 1.9vw;
+    }
+
+    .dir img {
+        width: 10vw;
+    }
+
+    .tamweelsec .col-sm-4 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .visionsec {
+        height: 480px;
+        margin-bottom: 100px;
+    }
+
+    .tamcardreadmore a::after {
+        display: none;
+    }
+
+    .readmore::after {
+        position: absolute;
+        top: 23px;
+        background-color: #404040;
+        content: '';
+        right: 16px;
+        width: 44px;
+        height: 1px;
+    }
+
+    .calcmonth {
+        font-size: 3vw;
+    }
+
+
+    .selsty {
+        margin-right: 10px;
+        width: 100%;
+        font-size: 1.9vw;
+    }
+
+
+    .container.rangesec {
+        margin-right: 10px;
+    }
+
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 100%;
+    }
+
+    .inputinfo {
+        margin-right: 10px;
+
+    }
+
+    .monthpay {
+        width: 90%;
+        text-align: center;
+        height: 50px;
+        margin-bottom: 50px;
+        font-size: 1.9vw;
+    }
+
+    .calcelect {
+        font-size: 1.9vw;
+        margin-right: 10%;
+        height: 50px;
+        margin-bottom: 56px;
+    }
+
+    .infohead {
+        font-size: 3vw;
+
+    }
+
+    .num {
+        font-size: 4vw;
+    }
+
+    .infosec .col-sm-4 {
+        width: 50%;
+    }
+
+
+    .imginfosec img {
+        width: 10vw;
+    }
+
+    .imgicons img {
+        display: none;
+
+    }
+
+    .suggestkey,
+    .location {
+        font-size: 3.4vw;
+    }
+
+    .contactsec input[type="text"],
+    .contactsec input[type="email"],
+    .contactsec textarea {
+        font-size: 2.6vw;
+        margin-bottom: 10px;
+        width: 100%;
+        color: #bbbbbb;
+
+
+    }
+
+    .btncontact {
+        font-size: 1.9vw;
+        margin-bottom: 20px;
+    }
+
+    .locationframe {
+        width: 100%;
+    }
+
+    .imgvisionicon img {
+        width: 9vw;
+    }
+
+    .contactsec .row .col-sm-6 {
+        width: 100%;
+    }
+
+/*My Needs Page */
+
+    .myneedswords
+    {
+        font-size: 1.4vw;
+    }
+    .productheader
+
+    {
+        width: 30%;
+        font-size: 3vw;
+    }
+
+    .col-10.needsinfoheader
+    {
+        width: 68%;
+        font-size: 3vw;
+    }
+    .col-2.product {
+        width: 30%;
+        font-size: 2vw;
+        padding: 17px;
+    }
+    .col-10.needsinfo
+    {
+        width: 68%;
+        font-size: 2vw;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 401px)and (max-width:599px) {
+
+
+
+
+ 
+
+    body {
+        overflow-x: hidden;
+
+    }
+
+    /*Header And Footer*/
+
+    .textcont {
+        position: absolute;
+        top: 32px;
+        bottom: -98px;
+        right: 133px;
+        direction: rtl;
+        background-color: rgb(35, 31, 32);
+        opacity: 0.71;
+        width: 65%;
+        height: 140px;
+        padding: 25px;
+        color: white;
+        bottom: 0px;
+    }
+
+.apply {
+    width: 90px;
+    height: 30px;
+    color: #ffff;
+    font-size: 1.2vw;
+    margin-bottom: 25px;
+}
+.next img {
+  width: 3vw;
+}
+    .navbar-toggler {
+
+        font-size: 5vw !important;
+    }
+
+    .footer .col-sm-3 a,
+    .com,
+    .social i,
+    .footercopy .sec {
+
+        font-size: 1.8vw;
+
+    }
+
+    .hide {
+
+        padding: 19px;
+
+        width: 442px;
+
+
+
+    }
+
+    .nav-item .nav-link {
+
+        font-size: 1.8vw;
+        height: 15px;
+
+    }
+
+    .aboutcompanyhide {
+        font-size: 1.8vw;
+    }
+
+    .desccompanyhide {
+        font-size: 1.7vw;
+    }
+
+    .navhide ul li a {
+
+
+        font-size: 1.7vw;
+        font-weight: bold;
+        display: block;
+    }
+
+    .navbar-brand img {
+        width: 13vw;
+    }
+
+    .tags img {
+        width: 10vw;
+    }
+
+    /*Branch Page */
+    span.p2,
+    p.p1 {
+        font-size: 1.6vw;
+    }
+
+    .divtext {
+        font-size: 1.6vw;
+        right: 43px;
+        top: 64px;
+    }
+
+    .branchname,
+    .golocation a {
+        font-size: 1.9vw;
+    }
+
+    .branchinfo {
+
+        font-size: 1.9vw;
+        box-shadow: 0px 0px 0px 0px #dddddd;
+    }
+
+    .cards.row .col-sm-3 {
+        margin-bottom: 100px;
+        width: 50%;
+    }
+
+    /*Complaints Page */
+    .container-fluid.complaintsSection .container,
+    .complaintskey,
+    .lab label,
+    .btnapplycomp {
+        font-size: 1.9vw;
+    }
+
+    .compaintsform input[type="text"],
+    .compaintsform input[type="email"],
+    textarea {
+        font-size: 1.9vw;
+        width: 100%;
+    }
+
+    /*Contact Us */
+    .contactword,
+    .helpword,
+    .goal,
+    .infocontact1,
+    .infocontact,
+    .labcontact label {
+        font-size: 1.9vw;
+    }
+
+    .sendcontact {
+        font-size: 1.9vw;
+        width: 100%;
+    }
+
+
+    .col-sm-1 img {
+      width: 50px;
+        height: 100%;
+    }
+
+    .framelocation {
+        width: 100%;
+        font-size: 1.9vw;
+    }
+
+    .contactcall .col-sm-1
+    {
+        width: 20%;
+    }
+    .contactcall .col-sm-5
+    {
+        width: 20%;
+    }
+.contactcall .col-sm-6
+{
+    width: 60%;
+}
+
+
+    .formcontacts input[type="text"],
+    .formcontacts input[type="email"],
+    .formcontacts textarea {
+        font-size: 1.9vw;
+        width: 100%;
+    }
+
+    .col-1 img {
+        width: 40px;
+        height: 100%;
+    }
+
+    .framelocation {
+        width: 100%;
+        font-size: 1.9vw;
+    }
+
+    /*jobs Page */
+
+
+    .jobshead,
+    .jobsdate,
+    .jobsbtn,
+    .jobslogo {
+
+        font-size: 1.9vw;
+
+    }
+
+    .jobsdesc {
+        font-size: 1.6vw;
+        width: 100%;
+    }
+
+    .cardcontent {
+        margin-right: 30px;
+    }
+
+    .jobscard .col-sm-4 {
+        padding: 25px;
+        height: 207px;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.19);
+    }
+
+    /*Lajna Page */
+
+
+
+
+
+    .lajnahead {
+        font-size: 2.7vw;
+        margin-right: 10px;
+
+    }
+.imglajnashadow img
+{
+    display: none;
+}
+    .lajnahead::after {
+        position: absolute;
+        top: 46px;
+
+        content: '';
+        right: 0px;
+        background-color: rgb(151, 200, 59);
+
+        width: 30px;
+        height: 1x;
+
+    }
+
+    .lajnadesc {
+        font-size: 2.4vw;
+        margin-right: 10px;
+    }
+
+    .lajnasection .col-sm-5 img {
+        width: 90%;
+    }
+
+    .lajnasection .col-sm-5 {
+        display: contents;
+
+    }
+
+    .col-sm-7.lajnacard {
+
+        width: 100%;
+
+    }
+
+    /*Majles Page */
+    .majlesword,
+    .managerword {
+        font-size: 3vw;
+        margin-bottom: 10px;
+    }
+
+    .majlesname {
+        font-size: 1.9vw;
+    }
+
+    .rqabasection .col-sm-4 {
+        width: 33%;
+    }
+    .squareimg1 img,.squareimg img
+    {
+        display: none;
+    }
+    .rqabasection .col-sm-4 img {
+        width: 60%;
+    }
+
+    .majlesword img {
+        display: none;
+    }
+
+
+    .managesection .col-sm-4 {
+        width: 33%;
+    }
+
+    .managesection .col-sm-4 img {
+        width: 60%;
+    }
+
+    .squareimg img {
+        display: none;
+    }
+
+    /*Messege Page */
+
+    .container-fluid.messegepage {
+        width: 99%;
+        height: auto;
+        border-radius: 55px;
+    }
+
+    .visiondescription {
+        font-size: 1.9vw;
+
+    }
+
+    .visionimage img {
+        display: none;
+    }
+
+    span.messegekeyword {
+        font-size: 2.2vw;
+    }
+
+
+    span.messegekeyword::after {
+        position: absolute;
+        content: '';
+        top: 12px;
+        left: -3px;
+        width: 28px;
+        background-color: #97c83b;
+        height: 3px;
+        bottom: 0;
+    }
+
+
+
+    .messegepage .col-sm-4 img {
+        width: 32%;
+        height: 110px;
+    }
+
+    /*Mordeen Page */
+    .mordeensection {
+        margin-bottom: 62px;
+    }
+
+    .moredhoverimg img {
+        width: 100%;
+    }
+
+    .moredname {
+
+        font-size: 1.9vw;
+        text-align: center;
+        width: 100%;
+    }
+
+    .moredhoverimg {
+        width: 100%;
+    }
+
+
+
+    .mordeensection .col-sm-3 {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+
+    .page-link {
+
+        font-size: 1.9vw;
+
+    }
+
+    /*Nabtha Page */
+
+    .nabthahead {
+        font-size: 2.7vw;
+
+    }
+
+    .nabthasection .col-sm-6 img {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .nabthadesc {
+        font-size: 1.9vw;
+    }
+
+    .col-6.nabthacard {
+        margin-top: 90px;
+    }
+
+
+
+    /*Needs Page */
+
+    .neddsdesc {
+        font-size: 1.6vw;
+    }
+
+    .squareneeds {
+        display: none;
+    }
+
+    .needspage .col-sm-3 {
+        width: 45%;
+        height: 200px;
+    }
+
+
+    /*News Page */
+    .head {
+        font-size: 2.1vw;
+    }
+
+    .desc,
+    .more a {
+        font-size: 1.9vw;
+    }
+
+    .cardnews {
+        width: 50%;
+        height: 400px;
+    }
+
+    /*Services Page */
+
+
+    .descsevshadow,
+    .servcardreadmore a {
+        font-size: 1.9vw;
+    }
+
+    .tamdesc {
+
+        font-size: 2.2vw;
+    }
+
+    .servsec .col-sm-4 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 9vw;
+    }
+
+    .logoshadow img {
+        width: 9vw;
+        margin-top: 83px;
+        margin-right: 10px;
+    }
+
+    .headersevshadow {
+        font-size: 1.9vw;
+        margin-right: 10px;
+    }
+
+    /*Responsibility Page */
+    .container.responsdiv {
+        font-size: 1.9vw;
+        width: 90%;
+    }
+
+    .margnews {
+        margin-bottom: 30px;
+    }
+
+    /*Values Page */
+
+    .valuesheader {
+        font-size: 2.2vw;
+
+    }
+
+    .valuesdesc {
+        font-size: 1.9vw;
+
+    }
+
+    .valuescard {
+        margin-bottom: 68px;
+    }
+
+    .valueslogo img {
+        width: 12vw;
+        ;
+        margin-bottom: 22px;
+    }
+
+
+    /*Vision Page */
+    span.visionkeyword {
+        font-size: 2.2vw;
+    }
+
+    span.visionkeyword::after {
+        position: absolute;
+        content: '';
+        top: 15px;
+        left: -3px;
+
+        width: 35px;
+
+        background-color: #97c83b;
+        height: 3px;
+        bottom: 0;
+    }
+
+    .visiondescription {
+        font-size: 1.9vw;
+    }
+
+    .container-fluid.visionpage {
+        width: 100%;
+
+        border-radius: 50px;
+    }
+
+    .visionpage .col-sm-4 img {
+        width: 38vw;
+        height: 153px;
+    }
+
+    .visionpage .col-sm-4 {
+      width: 40%;
+    }
+    .visionpage .col-sm-6 {
+        width: 60%;
+      }
+
+
+
+
+
+
+    /*Home Page */
+
+    .head,
+    .headertamshadow,
+    .newskey,
+    .shownews,
+    .supkey,
+    .showsup,
+    .texthead {
+        font-size: 2.2vw;
+    }
+
+    .tamweelkey {
+        font-size: 3vw;
+    }
+
+    .showsup::after {
+        display: none;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 6vw;
+    }
+    .text
+    {
+        font-size: 1vw;
+    }
+    .desctamshadow,
+    .envcal,
+    .proj,
+    .inputrange label,
+    .inputrange1 label,
+    .inforange,
+    .inputrange1 .inforange,
+    .inputrange .inforange
+    {
+        font-size: 1.9vw;
+    }
+
+    .desc1,
+    .desc,
+    .readmore,
+    .tamcardreadmore a {
+        width: 85%;
+        font-size: 1.9vw;
+    }
+
+    .dir img {
+        width: 10vw;
+    }
+
+    .tamweelsec .col-sm-4 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .visionsec {
+        height: 380px;
+        margin-bottom: 100px;
+    }
+
+    .tamcardreadmore a::after {
+        display: none;
+    }
+
+    .readmore::after {
+        position: absolute;
+        top: 23px;
+        background-color: #404040;
+        content: '';
+        right: 16px;
+        width: 44px;
+        height: 1px;
+    }
+
+    .calcmonth {
+        font-size: 3vw;
+    }
+
+
+    .selsty {
+        margin-right: 10px;
+        width: 100%;
+        font-size: 1.9vw;
+    }
+
+
+    .container.rangesec {
+        margin-right: 10px;
+    }
+
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 100%;
+    }
+
+    .inputinfo {
+        margin-right: 10px;
+
+    }
+
+    .monthpay {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 50px;
+        height: 40px;
+        font-size: 1.9vw;
+    }
+
+    .calcelect {
+        font-size: 1.9vw;
+        margin-right: 10%;
+        height: 40px;
+        margin-bottom: 56px;
+    }
+
+
+    .infohead {
+        font-size: 3vw;
+
+    }
+
+    .num {
+        font-size: 4vw;
+    }
+
+    .infosec .col-sm-4 {
+        width: 50%;
+    }
+
+
+    .imginfosec img {
+        width: 10vw;
+    }
+
+    .imgicons img {
+        display: none;
+
+    }
+
+    .suggestkey,
+    .location {
+        font-size: 3.4vw;
+    }
+
+    .contactsec input[type="text"],
+    .contactsec input[type="email"],
+    .contactsec textarea {
+        font-size: 2.6vw;
+        margin-bottom: 10px;
+        width: 100%;
+        color: #bbbbbb;
+
+
+    }
+
+    .btncontact {
+        font-size: 1.9vw;
+        margin-bottom: 20px;
+    }
+
+    .locationframe {
+        width: 100%;
+    }
+
+    .imgvisionicon img {
+        width: 9vw;
+    }
+
+    .contactsec .row .col-sm-6 {
+        width: 100%;
+    }
+
+
+    /*My Needs Page */
+    .myneedswords
+    {
+        font-size: 1.9vw;
+    }
+    .productheader
+
+    {
+        font-size: 5vw;
+    }
+
+    .col-10.needsinfoheader
+    {
+        font-size: 5vw;
+    }
+    .col-2.product
+    {
+        font-size: 2vw;
+    }
+    .col-10.needsinfo
+    {
+        font-size: 3vw;
+    }
+/*Pics Page*/
+.picsec .col-sm-4
+{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+}
+@media only screen and (max-width:400px){
+
+
+    body {
+        overflow-x: hidden;
+
+    }
+
+    /*Header And Footer*/
+    button.slide-arrow.prev-arrow.slick-arrow
+    {
+        display: none !important;
+    }
+    .cardcon {
+        position: absolute;
+        top: 0;
+        height: 0;
+        right: 20px;
+        /* bottom: 36px; */
+    }
+    .partnerslider .partnerimgslider img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 75px;
+    }
+
+    .slidermordeen .moredimgslider img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 75px;
+    }
+    .textcont {
+        position: absolute;
+        top: 32px;
+        bottom: -98px;
+        right: 133px;
+        direction: rtl;
+        background-color: rgb(35, 31, 32);
+        opacity: 0.71;
+        width: 65%;
+        height: 140px;
+        padding: 25px;
+        color: white;
+        bottom: 0px;
+    }
+
+.apply {
+    width: 90px;
+    height: 30px;
+    color: #ffff;
+    font-size: 1.2vw;
+    margin-bottom: 25px;
+}
+.next img {
+  width: 3vw;
+}
+    .navbar-toggler {
+
+        font-size: 5vw !important;
+    }
+
+    .footer .col-sm-3 a,
+    .com,
+    .social i,
+    .footercopy .sec {
+
+        font-size: 1.8vw;
+
+    }
+
+    .hide {
+
+        padding: 19px;
+
+        width: 442px;
+
+
+
+    }
+.footer{
+    padding-top: 30px;
+    height: 200px;
+}
+
+
+.footercopy {
+       
+    height: 54px;
+    padding-top: 12px;
+  
+}
+
+
+    .nav-item .nav-link {
+
+        font-size: 1.8vw;
+        height: 15px;
+
+    }
+
+    .aboutcompanyhide {
+        font-size: 1.8vw;
+    }
+
+    .desccompanyhide {
+        font-size: 1.7vw;
+    }
+
+    .navhide ul li a {
+
+
+        font-size: 1.7vw;
+        font-weight: bold;
+        display: block;
+    }
+
+    .navbar-brand img {
+        width: 13vw;
+    }
+
+    .tags img {
+        width: 10vw;
+    }
+
+    /*Branch Page */
+    span.p2,
+    p.p1 {
+        font-size: 1.2vw;
+    }
+    .divtext {
+        font-size: 1.2vw;
+        right: 30px;
+        top: 50%;
+    }
+    .branchname, .golocation a {
+        font-size: 7px;
+    }
+
+    .branchinfo {
+        font-size: 7px;
+        box-shadow: 0px 0px 0px 0px #dddddd;
+    }
+
+    .cards.row .col-sm-3 {
+        margin-bottom: 150px;
+        width: 100%;
+        height: 248px;
+    }
+
+    /*Complaints Page */
+    .container-fluid.complaintsSection .container, .lab label {
+        font-size: 2vw;
+    }
+    .btnapplycomp {
+        font-size: 2vw;
+        width: 89%;
+        height: 30px;
+        border-radius: 6px;
+    }
+    .complaintskey {
+        font-size: 2vw;
+        width: 50%;
+        height: 53px;
+    }
+    .compaintsform input[type="text"], .compaintsform input[type="email"] {
+        font-size: 1.9vw;
+        width: 100%;
+        height: 30px;
+        border-radius: 9px;
+    }
+
+
+    .formcompaints textarea
+    {
+        font-size: 1.9vw;
+        width: 100%;
+        height: 65px;
+        border-radius: 9px;
+
+        
+    }
+
+
+
+
+
+    
+    /*Contact Us */
+    .contactword,
+    .helpword,
+    .goal,
+    .infocontact1,
+    .infocontact,
+    .labcontact label {
+        font-size: 1.9vw;
+    }
+
+    .sendcontact {
+        font-size: 1.9vw;
+        width: 100%;
+    }
+
+    .formcontacts input[type="text"], .formcontacts input[type="email"] {
+        font-size: 1.9vw;
+        width: 100%;
+        height: 34px;
+        border-radius: 6px;
+    }
+
+    .formcontacts textarea
+    {
+        font-size: 1.9vw;
+        width: 100%;
+        height: 79px;
+        border-radius: 6px;
+    }
+
+
+
+    .col-sm-1 img {
+        width: 40px;
+        height: 100%;
+    }
+
+    .framelocation {
+        width: 100%;
+        font-size: 1.9vw;
+    }
+
+
+.contactcall .col-sm-6
+{
+    width: 100%;
+}
+
+
+
+
+    /*jobs Page */
+
+
+    .jobshead,
+    .jobsdate,
+    .jobsbtn,
+    .jobslogo {
+
+        font-size: 1.9vw;
+
+    }
+
+    .jobsdesc {
+        font-size: 1.6vw;
+        width: 100%;
+    }
+
+    .cardcontent {
+        margin-right: 30px;
+    }
+
+    .jobscard .col-sm-4 {
+        padding: 25px;
+        height: 150px;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.19);
+    }
+
+    /*Lajna Page */
+
+
+
+
+
+    .lajnahead {
+        font-size: 2.7vw;
+
+    }
+
+    .lajnahead::after {
+        position: absolute;
+        top: 46px;
+
+        content: '';
+        right: 0px;
+        background-color: rgb(151, 200, 59);
+
+        width: 57px;
+        height: 1x;
+
+    }
+    .imglajnashadow 
+    {
+        display: none;
+    }
+    .lajnadesc {
+        font-size: 2.4vw;
+
+    }
+    .lajnasection .row {
+        margin-right: auto;
+    }
+    .lajnasection .col-sm-5 img {
+        width: 60%;
+    }
+
+    .lajnasection .col-sm-5 {
+        display: contents;
+
+    }
+
+    .col-sm-7.lajnacard {
+
+        width: 100%;
+
+    }
+
+    /*Majles Page */
+    .majlesword,
+    .managerword {
+        font-size: 3vw;
+        margin-bottom: 10px;
+    }
+    .row.rqabasection {
+        margin-bottom: 64px;
+    }
+    .majlesname {
+        font-size: 1.9vw;
+    }
+    .squareimg1 img,.squareimg img
+    {
+        display: none;
+    }
+
+    .rqabasection .col-sm-4 {
+        width: 33%;
+    }
+
+    .rqabasection .col-sm-4 img {
+        width: 60%;
+    }
+
+    .majlesword img {
+        display: none;
+    }
+
+
+    .managesection .col-sm-4 {
+        width: 33%;
+    }
+
+    .managesection .col-sm-4 img {
+        width: 60%;
+    }
+
+    .squareimg img {
+        display: none;
+    }
+
+    /*Messege Page */
+
+    .container-fluid.messegepage {
+        width: 100%;
+        height: auto;
+        border-radius: 52px;
+    }
+    .visiondescription {
+        font-size: 1.9vw;
+
+    }
+
+    .visionimage img {
+        display: none;
+    }
+
+    span.messegekeyword {
+        font-size: 2.2vw;
+    }
+
+    span.messegekeyword::after {
+        position: absolute;
+        content: '';
+        top: 10px;
+        left: 2px;
+        width: 18px;
+        background-color: #97c83b;
+        height: 2px;
+        bottom: 0;
+    }
+
+
+    .messegepage .col-sm-4 img {
+        width: 30%;
+        height: 67px;
+    }
+
+
+    /*Mordeen Page */
+    .mordeensection {
+        margin-bottom: 62px;
+    }
+
+    .moredhoverimg img {
+        width: 47px;
+    }
+    .moredname {
+
+        font-size: 1.9vw;
+        text-align: center;
+        width: 100%;
+    }
+
+    .moredhoverimg {
+        width: 100%;
+        height: 135px;
+    }
+
+
+    .mordeensection .col-sm-3 {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+
+    .page-link {
+
+        font-size: 1.9vw;
+
+    }
+
+    /*Nabtha Page */
+
+    .nabthahead {
+        font-size: 2.7vw;
+
+    }
+
+    .nabthasection .col-sm-6 img {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .nabthadesc {
+        font-size: 1.9vw;
+    }
+
+    .col-6.nabthacard {
+        margin-top: 90px;
+    }
+
+
+
+    /*Needs Page */
+
+    .neddsdesc {
+        font-size: 2vw;
+    }
+
+    .squareneeds {
+        display: none;
+    }
+
+    .needspage .col-sm-3 {
+        width: 42%;
+        height: 100px;
+    }
+
+    /*News Page */
+    .head {
+        font-size: 2.1vw;
+    }
+
+    .desc,
+    .more a {
+        font-size: 1.9vw;
+    }
+
+    .cardnews {
+        width: 50%;
+        height: auto;
+    }
+
+    /*Services Page */
+
+    .servcardreadmore a::after {
+      
+        top: 26px;
+ 
+        content: '';
+        right: 27px;
+
+        width: 26px;
+        height: 1px;
+    }
+    .descsevshadow,
+    .servcardreadmore a {
+        font-size: 1.9vw;
+    }
+
+    .tamdesc {
+
+        font-size: 2.2vw;
+    }
+
+    .servsec .col-sm-4 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 9vw;
+    }
+
+    .logoshadow img {
+        width: 9vw;
+        margin-top: 83px;
+        margin-right: 10px;
+    }
+
+    .headersevshadow {
+        font-size: 1.9vw;
+        margin-right: 10px;
+    }
+
+    /*Responsibility Page */
+    .container.responsdiv {
+        font-size: 1.9vw;
+        width: 90%;
+    }
+
+    .margnews {
+        margin-bottom: 30px;
+    }
+
+    /*Values Page */
+
+    .valuesheader {
+        font-size: 2.2vw;
+
+    }
+
+    .valuesdesc {
+        font-size: 1.9vw;
+
+    }
+
+    .valuescard {
+        margin-bottom: 68px;
+    }
+
+    .valueslogo img {
+        width: 12vw;
+        ;
+        margin-bottom: 22px;
+    }
+
+
+    /*Vision Page */
+    span.visionkeyword {
+        font-size: 2.2vw;
+    }
+
+    span.visionkeyword::after {
+        position: absolute;
+        content: '';
+        top: 8px;
+        left: -3px;
+        width: 16px;
+        background-color: #97c83b;
+        height: 2px;
+        bottom: 0;
+    }
+
+    .visiondescription {
+        font-size: 1.9vw;
+    }
+
+    .container-fluid.visionpage {
+        width: 100%;
+
+        border-radius: 50px;
+    }
+
+    .visionpage .col-sm-4 img {
+        width: 38vw;
+        height: 99px;
+    }
+
+    .visionpage .col-sm-4 {
+      width: 40%;
+    }
+    .visionpage .col-sm-6 {
+        width: 60%;
+      }
+
+
+
+
+
+
+    /*Home Page */
+
+    .head,
+    .headertamshadow,
+    .newskey,
+    .shownews,
+    .supkey,
+    .showsup,
+    .texthead {
+        font-size: 2.2vw;
+    }
+
+    .tamweelkey {
+        font-size: 3vw;
+    }
+
+    .showsup::after {
+        display: none;
+    }
+
+    .logocard img,
+    .plus1 img {
+        width: 6vw;
+    }
+    .text
+    {
+        font-size: 1vw;
+    }
+    .desctamshadow,
+    .envcal,
+    .proj,
+    .inputrange label,
+    .inputrange1 label,
+    .inforange,
+    .inputrange1 .inforange,
+    .inputrange .inforange
+    {
+        font-size: 1.9vw;
+    }
+
+    .desc1,
+    .desc,
+    .readmore,
+    .tamcardreadmore a {
+        width: 85%;
+        font-size: 1.9vw;
+    }
+
+    .dir img {
+        width: 10vw;
+    }
+
+    .tamweelsec .col-sm-4 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .visionsec {
+        height: 380px;
+        margin-bottom: 100px;
+    }
+
+    .tamcardreadmore a::after {
+        display: none;
+    }
+    .readmore::after {
+        position: absolute;
+        top: 23px;
+        background-color: #404040;
+        content: '';
+        right: 19px;
+        width: 32px;
+        height: 1px;
+    }
+    .calcmonth {
+        font-size: 3vw;
+    }
+
+
+    .selsty {
+        margin-right: 10px;
+        width: 100%;
+        font-size: 1.9vw;
+    }
+
+
+    .container.rangesec {
+        margin-right: 10px;
+    }
+
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 100%;
+    }
+
+    .inputinfo {
+        margin-right: 10px;
+
+    }
+
+    .monthpay {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 50px;
+        height: 40px;
+        font-size: 1.9vw;
+    }
+
+    .calcelect {
+        font-size: 1.9vw;
+        margin-right: 0;
+        width: 89%;
+        height: 40px;
+        margin-bottom: 56px;
+    }
+
+    .infohead {
+        font-size: 3vw;
+
+    }
+    .infohead::after {
+        content: '';
+        width: 29px;
+        height: 6px;
+        background: #81ac33;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .num {
+        font-size: 4vw;
+    }
+
+    .infosec .col-sm-4 {
+        width: 50%;
+    }
+
+
+    .imginfosec img {
+        width: 10vw;
+    }
+
+    .imgicons img {
+        display: none;
+
+    }
+
+    .suggestkey,
+    .location {
+        font-size: 3.4vw;
+    }
+
+    .contactsec input[type="text"],
+    .contactsec input[type="email"],
+    .contactsec textarea {
+        font-size: 2.6vw;
+        margin-bottom: 10px;
+        width: 100%;
+        color: #bbbbbb;
+
+
+    }
+
+    .btncontact {
+        font-size: 1.9vw;
+        margin-bottom: 20px;
+    }
+
+    .locationframe {
+        width: 100%;
+    }
+
+    .imgvisionicon img {
+        width: 9vw;
+    }
+
+    .contactsec .row .col-sm-6 {
+        width: 100%;
+    }
+
+
+    /*My Needs Page */
+    .myneedswords
+    {
+        font-size: 1.9vw;
+    }
+    .productheader
+
+    {
+        font-size: 5vw;
+    }
+
+    .col-10.needsinfoheader
+    {
+        font-size: 5vw;
+    }
+    .col-2.product
+    {
+        font-size: 2vw;
+    }
+    .col-10.needsinfo
+    {
+        font-size: 3vw;
+    }
+/*Pics Page*/
+.picsec .col-sm-4
+{
+    margin-bottom: 20px;
+}
+
+}
